@@ -60,7 +60,7 @@ summaries: $(DATASET_SUMMARIES)
 
 $(DATASET_SUMMARIES): $(SUMMARY_DIR)/summary_%.json: $(DATA_DIR)/%.json \
 	$(SCRIPT_DIR)/summarize.py $(SCRIPT_DIR)/metrics.py | summary-dir
-	python $(SCRIPT_DIR)/summarize.py -a $(ANNOTATION_FILE) -d $< \
+	python3 $(SCRIPT_DIR)/summarize.py -a $(ANNOTATION_FILE) -d $< \
 		-r $(RESULT_DIR) -o $@
 
 clean_summaries:
@@ -99,22 +99,22 @@ default_tables: \
 $(TABLE_DIR)/oracle_f1_combined_full.tex: $(SCRIPT_DIR)/make_table.py \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/latex.py \
 	$(SCRIPT_DIR)/score_file.py $(DATASET_SUMMARIES) | table-dir
-	python $< -s $(SUMMARY_DIR) -e oracle -m f1 > $@
+	python3 $< -s $(SUMMARY_DIR) -e oracle -m f1 > $@
 
 $(TABLE_DIR)/oracle_cover_combined_full.tex: $(SCRIPT_DIR)/make_table.py \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/latex.py \
 	$(SCRIPT_DIR)/score_file.py $(DATASET_SUMMARIES) | table-dir
-	python $< -s $(SUMMARY_DIR) -e oracle -m cover > $@
+	python3 $< -s $(SUMMARY_DIR) -e oracle -m cover > $@
 
 $(TABLE_DIR)/default_f1_combined_full.tex: $(SCRIPT_DIR)/make_table.py \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/latex.py \
 	$(SCRIPT_DIR)/score_file.py $(DATASET_SUMMARIES) | table-dir
-	python $< -s $(SUMMARY_DIR) -e default -m f1 > $@
+	python3 $< -s $(SUMMARY_DIR) -e default -m f1 > $@
 
 $(TABLE_DIR)/default_cover_combined_full.tex: $(SCRIPT_DIR)/make_table.py \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/latex.py \
 	$(SCRIPT_DIR)/score_file.py $(DATASET_SUMMARIES) | table-dir
-	python $< -s $(SUMMARY_DIR) -e default -m cover > $@
+	python3 $< -s $(SUMMARY_DIR) -e default -m cover > $@
 
 aggregate_wide: $(TABLE_DIR)/aggregate_scores_wide.tex
 
@@ -125,7 +125,7 @@ $(TABLE_DIR)/aggregate_scores_wide.tex: $(SCRIPT_DIR)/aggregate_scores_wide.py \
 	$(SCORE_DIR)/default_f1_scores.json \
 	$(SCORE_DIR)/oracle_cover_scores.json \
 	$(SCORE_DIR)/oracle_f1_scores.json | table-dir
-	python $< \
+	python3 $< \
 		--default-cover $(SCORE_DIR)/default_cover_scores.json \
 		--default-f1 $(SCORE_DIR)/default_f1_scores.json \
 		--oracle-cover $(SCORE_DIR)/oracle_cover_scores.json \
@@ -138,7 +138,7 @@ descriptive: $(TABLE_DIR)/descriptive_statistics.tex
 $(TABLE_DIR)/descriptive_statistics.tex: $(SCRIPT_DIR)/descriptive_statistics.py \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/frequencies.py \
 	$(DATASET_SUMMARIES) | table-dir
-	python $< -d $(DATA_DIR) -s $(SUMMARY_DIR) -o $@
+	python3 $< -d $(DATA_DIR) -s $(SUMMARY_DIR) -o $@
 
 annotator_agreement: $(TABLE_DIR)/annotation_simulation_pvalues.tex
 
@@ -148,7 +148,7 @@ $(TABLE_DIR)/annotation_simulation_pvalues.tex: \
 	$(SCRIPT_DIR)/latex.py \
 	$(SCRIPT_DIR)/metrics.py \
 	$(DATASET_SUMMARIES) | table-dir
-	python $< -s $(SUMMARY_DIR) -o $@ --seed 123 -r 100000
+	python3 $< -s $(SUMMARY_DIR) -o $@ --seed 123 -r 100000
 
 clean_tables:
 	rm -f $(TABLE_DIR)/aggregate_scores_wide.tex
@@ -182,14 +182,14 @@ $(FIGURE_DIR)/anno_hist/histogram_f1.tex: \
 	$(SCRIPT_DIR)/common.py \
 	$(SCRIPT_DIR)/metrics.py \
 	$(DATASET_SUMMARIES) | figure-dirs
-	python $< -s $(SUMMARY_DIR) -o $@ --metric f1
+	python3 $< -s $(SUMMARY_DIR) -o $@ --metric f1
 
 $(FIGURE_DIR)/anno_hist/histogram_cover.tex: \
 	$(SCRIPT_DIR)/annotator_histogram.py \
 	$(SCRIPT_DIR)/common.py \
 	$(SCRIPT_DIR)/metrics.py \
 	$(DATASET_SUMMARIES) | figure-dirs
-	python $< -s $(SUMMARY_DIR) -o $@ --metric covering
+	python3 $< -s $(SUMMARY_DIR) -o $@ --metric covering
 
 $(FIGURE_DIR)/anno_hist/histogram_%.pdf: \
 	$(FIGURE_DIR)/anno_hist/histogram_%.tex | figure-dirs
@@ -221,11 +221,11 @@ default_scores: \
 
 $(SCORE_DIR)/default_cover_scores.json: $(SCRIPT_DIR)/score_file.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | score-dir
-	python $< -s $(SUMMARY_DIR) -e default -m cover > $@
+	python3 $< -s $(SUMMARY_DIR) -e default -m cover > $@
 
 $(SCORE_DIR)/default_f1_scores.json: $(SCRIPT_DIR)/score_file.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | score-dir
-	python $< -s $(SUMMARY_DIR) -e default -m f1 > $@
+	python3 $< -s $(SUMMARY_DIR) -e default -m f1 > $@
 
 oracle_scores: \
 	$(SCORE_DIR)/oracle_cover_scores.json \
@@ -233,11 +233,11 @@ oracle_scores: \
 
 $(SCORE_DIR)/oracle_cover_scores.json: $(SCRIPT_DIR)/score_file.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | score-dir
-	python $< -s $(SUMMARY_DIR) -e oracle -m cover > $@
+	python3 $< -s $(SUMMARY_DIR) -e oracle -m cover > $@
 
 $(SCORE_DIR)/oracle_f1_scores.json: $(SCRIPT_DIR)/score_file.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | score-dir
-	python $< -s $(SUMMARY_DIR) -e oracle -m f1 > $@
+	python3 $< -s $(SUMMARY_DIR) -e oracle -m f1 > $@
 
 clean_score_files:
 	rm -f $(SCORE_DIR)/default_cover_scores.json
@@ -265,7 +265,7 @@ $(CDD_DIR)/cddiagram_$(1)_$(2)_$(3).tex: \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/rank_common.py \
 	$(SCRIPT_DIR)/significance.py \
 	$(SCRIPT_DIR)/critical_difference_diagram.py | cdd-dir
-	python $(SCRIPT_DIR)/critical_difference_diagram.py -i $$< -o $$@ \
+	python3 $(SCRIPT_DIR)/critical_difference_diagram.py -i $$< -o $$@ \
 		-d $(3) -e $(1) -t wilcoxon -m $(MISSING_STRATEGY)
 endef
 
@@ -309,57 +309,57 @@ $(CONST_DIR)/sigtest_global_oracle_cover_uni.tex: \
 	$(SCORE_DIR)/oracle_cover_scores.json \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/rank_common.py \
 	$(SCRIPT_DIR)/significance.py | const-dir
-	python $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
+	python3 $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
 		--experiment oracle --mode global --missing $(MISSING_STRATEGY)
 
 $(CONST_DIR)/sigtest_global_oracle_f1_uni.tex: \
 	$(SCORE_DIR)/oracle_f1_scores.json \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/rank_common.py \
 	$(SCRIPT_DIR)/significance.py | const-dir
-	python $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
+	python3 $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
 		--experiment oracle --mode global --missing $(MISSING_STRATEGY)
 
 $(CONST_DIR)/sigtest_global_default_cover_uni.tex: \
 	$(SCORE_DIR)/default_cover_scores.json \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/rank_common.py \
 	$(SCRIPT_DIR)/significance.py | const-dir
-	python $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
+	python3 $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
 		--experiment oracle --mode global --missing $(MISSING_STRATEGY)
 
 $(CONST_DIR)/sigtest_global_default_f1_uni.tex: \
 	$(SCORE_DIR)/default_f1_scores.json \
 	$(SCRIPT_DIR)/common.py $(SCRIPT_DIR)/rank_common.py \
 	$(SCRIPT_DIR)/significance.py | const-dir
-	python $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
+	python3 $(SCRIPT_DIR)/significance.py -i $< -o $@ -d univariate \
 		--experiment oracle --mode global --missing $(MISSING_STRATEGY)
 
 $(CONST_DIR)/SeriesLengthMin.tex: $(SCRIPT_DIR)/descriptive_length.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t min > $@
+	python3 $< -s $(SUMMARY_DIR) -t min > $@
 
 $(CONST_DIR)/SeriesLengthMax.tex: $(SCRIPT_DIR)/descriptive_length.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t max > $@
+	python3 $< -s $(SUMMARY_DIR) -t max > $@
 
 $(CONST_DIR)/SeriesLengthMean.tex: $(SCRIPT_DIR)/descriptive_length.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t mean > $@
+	python3 $< -s $(SUMMARY_DIR) -t mean > $@
 
 $(CONST_DIR)/UniqueAnnotationsMin.tex: $(SCRIPT_DIR)/descriptive_annotations.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t min > $@
+	python3 $< -s $(SUMMARY_DIR) -t min > $@
 
 $(CONST_DIR)/UniqueAnnotationsMax.tex: $(SCRIPT_DIR)/descriptive_annotations.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t max > $@
+	python3 $< -s $(SUMMARY_DIR) -t max > $@
 
 $(CONST_DIR)/UniqueAnnotationsMean.tex: $(SCRIPT_DIR)/descriptive_annotations.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t mean > $@
+	python3 $< -s $(SUMMARY_DIR) -t mean > $@
 
 $(CONST_DIR)/UniqueAnnotationsStd.tex: $(SCRIPT_DIR)/descriptive_annotations.py \
 	$(SCRIPT_DIR)/common.py $(DATASET_SUMMARIES) | const-dir
-	python $< -s $(SUMMARY_DIR) -t std > $@
+	python3 $< -s $(SUMMARY_DIR) -t std > $@
 
 clean_constants:
 	rm -f $(CONSTANT_TARGETS)
@@ -380,16 +380,16 @@ py_venvs: venv_bocpdms venv_rbocpdms
 venv_bocpdms: ./execs/python/bocpdms/venv
 
 ./execs/python/bocpdms/venv:
-	cd execs/python/bocpdms && python -m venv venv && \
-		source venv/bin/activate && pip install wheel && \
-		pip install -r requirements.txt
+	cd execs/python/bocpdms && python3 -m venv venv && \
+		source venv/bin/activate && pip3 install wheel && \
+		pip3 install -r requirements.txt
 
 venv_rbocpdms: ./execs/python/rbocpdms/venv
 
 ./execs/python/rbocpdms/venv:
-	cd execs/python/rbocpdms && python -m venv venv && \
-		source venv/bin/activate && pip install wheel && \
-		pip install -r requirements.txt
+	cd execs/python/rbocpdms && python3 -m venv venv && \
+		source venv/bin/activate && pip3 install wheel && \
+		pip3 install -r requirements.txt
 
 R_venv:
 	bash ./utils/R_setup.sh Rpackages.txt ./execs/R/rlibs
@@ -414,7 +414,7 @@ clean_venvs: clean_R_venv clean_py_venv
 .PHONY: validate
 
 validate: ./utils/validate_schema.py ./schema.json
-	python $< -s ./schema.json -r $(RESULT_DIR)
+	python3 $< -s ./schema.json -r $(RESULT_DIR)
 
 ###########
 #         #

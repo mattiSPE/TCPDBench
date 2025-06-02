@@ -1,19 +1,21 @@
 {
 	"error" : null,
-	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/occupancy.json -a kcpa -C 1.0 -L max",
-	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R",
-	"script_md5" : "a9174cb1682ef279a06637d2197d9305",
-	"hostname" : "gertjan-arch",
+	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/occupancy.json -a kcpa -C 1.0 -L max",
+	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "69592a0f-89cf-4bbb-abd8-3230520d0d50.fritz.box",
 	"dataset" : "occupancy",
 	"dataset_md5" : "bc6cd9adaf496fe30bf0e417d2c3b0c6",
 	"status" : "SUCCESS",
 	"parameters" : {
 		"L" : 509,
 		"algorithm" : "kcpa",
+		"alpha" : null,
 		"cost" : 1,
 		"maxcp" : "max",
 		"minsize" : 30,
-		"runs" : 199
+		"runs" : 199,
+		"siglvl" : null
 	},
 	"result" : {
 		"cplocations" : [
@@ -27,6 +29,7 @@
 			7,
 			8,
 			9,
+			10,
 			11,
 			12,
 			13,
@@ -45,11 +48,14 @@
 			30,
 			31,
 			33,
+			34,
 			35,
 			36,
 			37,
 			39,
+			40,
 			41,
+			42,
 			43,
 			45,
 			47,
@@ -133,6 +139,7 @@
 			132,
 			133,
 			134,
+			135,
 			136,
 			137,
 			138,
@@ -199,6 +206,7 @@
 			212,
 			215,
 			217,
+			219,
 			222,
 			224,
 			226,
@@ -208,6 +216,7 @@
 			233,
 			234,
 			235,
+			236,
 			237,
 			238,
 			239,
@@ -329,6 +338,7 @@
 			366,
 			367,
 			368,
+			371,
 			373,
 			374,
 			376,
@@ -340,6 +350,7 @@
 			390,
 			391,
 			392,
+			393,
 			396,
 			398,
 			399,
@@ -403,6 +414,7 @@
 			462,
 			463,
 			464,
+			465,
 			466,
 			467,
 			468,
@@ -428,6 +440,6 @@
 			508,
 			509
 		],
-		"runtime" : 134.7492
+		"runtime" : 13.30469
 	}
 } 

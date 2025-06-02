@@ -37,6 +37,7 @@ then
 fi
 
 PACKAGE_FILE="$1"
+[ -e $2 ] || mkdir -p $2
 LIBDIR=$(realpath "$2")
 mkdir -p ${LIBDIR}
 
