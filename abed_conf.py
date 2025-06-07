@@ -251,11 +251,11 @@ PARAMS = {
         for i in ["true", "false"]
     ],
     "oracle_changeforest": [
-        {"n_estimators": n, "max_depth": d, "mtry": m}
-        for n in [20,100,500]
-        for d in [2, 8, None]
-        for m in [1, "sqrt"]
-],
+        {"x_method": m, "segmentation_type": s, "n_estimators": n}
+        for m in ["knn", "change_in_mean", "random_forest"]
+        for s in ["bs", "wbs", "sbs"]
+        for n in [25, 50, 100]
+    ],
     "oracle_zero": [{"no_param": 0}],
     "default_bocpd": [{"no_param": 0}],
     "default_bocpdms": [{"no_param": 0}],
@@ -311,9 +311,10 @@ COMMANDS = {
     ),
     "oracle_changeforest": (
         "source {execdir}/python/changeforest/venv/bin/activate && "
-        "python {execdir}/python/changeforest.py "
-        "-i {datadir}/{dataset}.json --n-estimators {n_estimators} "
-        "--max-depth {max_depth} --mtry {mtry} --use-timeout"
+        "python {execdir}/python/cpd_changeforest.py "
+        "-i {datadir}/{dataset}.json --method {x_method} "
+        "--segmentation-type {segmentation_type} "
+        "--n-estimators {n_estimators} "
     ), 
     "oracle_zero": (
         "python {execdir}/python/cpdbench_zero.py "
@@ -357,7 +358,7 @@ COMMANDS = {
     ),
     "default_changeforest": (
         "source {execdir}/python/changeforest/venv/bin/activate && "
-        "python {execdir}/python/changeforest.py -i {datadir}/{dataset}.json"
+        "python {execdir}/python/cpd_changeforest.py -i {datadir}/{dataset}.json"
     ),
     "default_zero": (
         "python {execdir}/python/cpdbench_zero.py "

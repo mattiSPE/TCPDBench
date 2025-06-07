@@ -375,7 +375,7 @@ clean_constants:
 
 venvs: py_venvs R_venv
 
-py_venvs: venv_bocpdms venv_rbocpdms #venv_changeforest
+py_venvs: venv_bocpdms venv_rbocpdms venv_changeforest
 
 venv_bocpdms: ./execs/python/bocpdms/venv
 
@@ -393,6 +393,10 @@ venv_rbocpdms: ./execs/python/rbocpdms/venv
 
 venv_changeforest: ./execs/python/changeforest/venv
 
+./execs/python/changeforest/venv:
+	cd execs/python/changeforest && python3 -m venv venv && \
+		source venv/bin/activate && pip3 install wheel && \
+		pip3 install -r requirements.txt
 
 R_venv:
 	bash ./utils/R_setup.sh Rpackages.txt ./execs/R/rlibs

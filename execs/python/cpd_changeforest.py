@@ -31,8 +31,8 @@ def parse_args():
     parser.add_argument("-i", "--input", required=True, help="Path to input .json file")
     parser.add_argument("-o", "--output", help="Optional output path")
     parser.add_argument("--method", type=str, help="Search method in changeforest: knn, change_in_mean, random_forest", default="random_forest")
-    parser.add_argument("--segmentation_type", type=str, help="Search strategy in changeforest: bs, wbs, sbs", default="bs")
-    parser.add_argument("--n-estimators", type=int, help="Number of trees")
+    parser.add_argument("--segmentation-type", type=str, help="Search strategy in changeforest: bs, wbs, sbs", default="bs")
+    parser.add_argument("--n-estimators", type=int, default=50 ,help="Number of trees")
     parser.add_argument("--max-depth", help="Maximum tree depth", type=lambda x: int(x) if x != "None" else None)
     parser.add_argument("--mtry", help="Feature selection per split", choices=["sqrt", "log2", "all", "1"], default="sqrt")
     parser.add_argument("--use-timeout", action="store_true")
@@ -59,6 +59,10 @@ def run_changeforest(mat: np.ndarray, params: dict):
         mat,
         params['method'],
         params['segmentation_type'],
+        Control(
+            random_forest_n_estimators=params['n_estimators'],
+            #random_forest_max_depth=params['max_depth'],
+        ),
     )
     #print("DEBUG(clf):", clf)
     detected = clf.split_points()
@@ -69,16 +73,20 @@ def main():
     data, mat = load_dataset(args.input)
 
     defaults = {
-        "n_estimators": 100,
+        #"n_estimators": 50,
         "max_depth": 8,
         "mtry": "sqrt"
     }
+
+    #print("DEBUG(args):", vars(args))
 
     parameters = make_param_dict(args, defaults)
 
     start_time = time.time()
     status = "fail"
     error = None
+
+    #print("DEBUG(CONTROL):", vars(Control()))
 
     try:
         if args.use_timeout:
