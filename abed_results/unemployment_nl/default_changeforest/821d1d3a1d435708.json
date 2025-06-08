@@ -1,0 +1,28 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/unemployment_nl.json",
+	"dataset": "unemployment_nl",
+	"dataset_md5": "26d8c0359de7f733a6fb51d4d60b5af6",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "random_forest",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			7,
+			11,
+			131,
+			142,
+			175
+		],
+		"runtime": 0.030618906021118164
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

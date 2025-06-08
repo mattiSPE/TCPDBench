@@ -1,0 +1,27 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/unemployment_nl.json --method change_in_mean --segmentation-type bs --n-estimators 100",
+	"dataset": "unemployment_nl",
+	"dataset_md5": "26d8c0359de7f733a6fb51d4d60b5af6",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "change_in_mean",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			131,
+			139,
+			143,
+			181
+		],
+		"runtime": 0.0011026859283447266
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

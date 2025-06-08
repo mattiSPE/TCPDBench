@@ -1,0 +1,30 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/quality_control_4.json --method knn --segmentation-type bs --n-estimators 50",
+	"dataset": "quality_control_4",
+	"dataset_md5": "1efedb9a52cd0b9a9250cf9781c5f7ef",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			159,
+			167,
+			177,
+			288,
+			343,
+			468,
+			489
+		],
+		"runtime": 0.016834735870361328
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

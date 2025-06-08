@@ -1,0 +1,51 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/apple.json --method random_forest --segmentation-type wbs --n-estimators 25",
+	"dataset": "apple",
+	"dataset_md5": "22edb48471bd3711f7a6e15de6413643",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "random_forest",
+		"mtry": "sqrt",
+		"n_estimators": 25,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			7,
+			16,
+			41,
+			48,
+			57,
+			71,
+			101,
+			112,
+			128,
+			170,
+			183,
+			200,
+			223,
+			243,
+			260,
+			286,
+			311,
+			319,
+			361,
+			387,
+			415,
+			428,
+			460,
+			468,
+			536,
+			543,
+			551,
+			606
+		],
+		"runtime": 0.7520871162414551
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

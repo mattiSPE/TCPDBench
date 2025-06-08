@@ -1,0 +1,28 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/apple.json --method change_in_mean --segmentation-type wbs --n-estimators 100",
+	"dataset": "apple",
+	"dataset_md5": "22edb48471bd3711f7a6e15de6413643",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "change_in_mean",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			131,
+			228,
+			245,
+			312,
+			320
+		],
+		"runtime": 0.0005600452423095703
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

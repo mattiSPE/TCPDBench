@@ -1,0 +1,28 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/iceland_tourism.json --method knn --segmentation-type wbs --n-estimators 50",
+	"dataset": "iceland_tourism",
+	"dataset_md5": "8bbac4ca95319a865f2d58ff564f063d",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			44,
+			82,
+			122,
+			148,
+			160
+		],
+		"runtime": 0.005754232406616211
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

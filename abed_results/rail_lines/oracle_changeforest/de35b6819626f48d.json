@@ -1,0 +1,25 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/rail_lines.json --method knn --segmentation-type sbs --n-estimators 25",
+	"dataset": "rail_lines",
+	"dataset_md5": "fa7d19c61264f0d6b9d74cd145a50012",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 25,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			5,
+			26
+		],
+		"runtime": 0.0024068355560302734
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

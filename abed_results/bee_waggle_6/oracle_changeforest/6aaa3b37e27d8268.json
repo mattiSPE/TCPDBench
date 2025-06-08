@@ -1,0 +1,43 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/bee_waggle_6.json --method change_in_mean --segmentation-type sbs --n-estimators 100",
+	"dataset": "bee_waggle_6",
+	"dataset_md5": "b9a8624334da778dd9d6aaf862a03093",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "change_in_mean",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			22,
+			41,
+			56,
+			98,
+			123,
+			176,
+			191,
+			214,
+			259,
+			274,
+			291,
+			339,
+			355,
+			367,
+			418,
+			443,
+			493,
+			518,
+			575,
+			593
+		],
+		"runtime": 0.00057220458984375
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

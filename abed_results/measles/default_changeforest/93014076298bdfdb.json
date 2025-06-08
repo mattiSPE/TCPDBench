@@ -1,0 +1,51 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/measles.json",
+	"dataset": "measles",
+	"dataset_md5": "e42afd03be893fc7deb98514c94fa4c7",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "random_forest",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			56,
+			197,
+			208,
+			247,
+			258,
+			277,
+			291,
+			318,
+			334,
+			526,
+			541,
+			576,
+			588,
+			605,
+			615,
+			630,
+			649,
+			667,
+			677,
+			694,
+			712,
+			729,
+			739,
+			754,
+			770,
+			933,
+			943,
+			961
+		],
+		"runtime": 0.22682595252990723
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

@@ -1,0 +1,31 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/seatbelts.json --method knn --segmentation-type sbs --n-estimators 50",
+	"dataset": "seatbelts",
+	"dataset_md5": "976ef4318e7b6381ff37dd4ac8029718",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			10,
+			60,
+			64,
+			68,
+			72,
+			163,
+			168,
+			188
+		],
+		"runtime": 0.0050389766693115234
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

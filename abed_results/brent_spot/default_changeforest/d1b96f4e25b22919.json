@@ -1,0 +1,39 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/brent_spot.json",
+	"dataset": "brent_spot",
+	"dataset_md5": "79892116ef8a0aa16e2450123655b31d",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "random_forest",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			90,
+			103,
+			116,
+			133,
+			142,
+			189,
+			200,
+			225,
+			241,
+			250,
+			258,
+			279,
+			373,
+			379,
+			394,
+			454
+		],
+		"runtime": 0.07222700119018555
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

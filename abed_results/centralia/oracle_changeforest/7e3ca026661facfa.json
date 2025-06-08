@@ -1,0 +1,24 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/centralia.json --method knn --segmentation-type wbs --n-estimators 50",
+	"dataset": "centralia",
+	"dataset_md5": "addb9b70ac1294eba6da958f3ab26595",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 50,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			9
+		],
+		"runtime": 0.0012831687927246094
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

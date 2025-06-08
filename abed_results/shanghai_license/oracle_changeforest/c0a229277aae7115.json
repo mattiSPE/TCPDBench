@@ -1,0 +1,33 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/shanghai_license.json --method knn --segmentation-type bs --n-estimators 100",
+	"dataset": "shanghai_license",
+	"dataset_md5": "b4ac173eb6c0a1a4d10268abc109eda1",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			12,
+			62,
+			74,
+			108,
+			142,
+			147,
+			159,
+			168,
+			195,
+			201
+		],
+		"runtime": 0.011832952499389648
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

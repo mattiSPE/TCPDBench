@@ -1,0 +1,51 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/construction.json --method knn --segmentation-type sbs --n-estimators 100",
+	"dataset": "construction",
+	"dataset_md5": "fb0347dc9fd353b11b35e99f7d531f13",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			4,
+			16,
+			23,
+			28,
+			34,
+			41,
+			64,
+			88,
+			94,
+			119,
+			124,
+			135,
+			149,
+			178,
+			183,
+			191,
+			202,
+			208,
+			214,
+			232,
+			245,
+			256,
+			267,
+			274,
+			279,
+			292,
+			304,
+			309
+		],
+		"runtime": 0.011011123657226562
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

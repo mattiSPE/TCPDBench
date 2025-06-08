@@ -1,0 +1,48 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/apple.json --method knn --segmentation-type bs --n-estimators 100",
+	"dataset": "apple",
+	"dataset_md5": "22edb48471bd3711f7a6e15de6413643",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			83,
+			90,
+			101,
+			123,
+			131,
+			201,
+			215,
+			228,
+			243,
+			319,
+			328,
+			344,
+			361,
+			376,
+			387,
+			398,
+			406,
+			415,
+			429,
+			462,
+			471,
+			535,
+			549,
+			562,
+			605
+		],
+		"runtime": 0.035591840744018555
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

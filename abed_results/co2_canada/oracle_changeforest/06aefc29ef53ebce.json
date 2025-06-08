@@ -1,0 +1,51 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/co2_canada.json --method random_forest --segmentation-type sbs --n-estimators 100",
+	"dataset": "co2_canada",
+	"dataset_md5": "de8d2cac911d2a8e3ce5addacbaed8e0",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "random_forest",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			6,
+			15,
+			21,
+			26,
+			31,
+			35,
+			39,
+			46,
+			50,
+			55,
+			63,
+			71,
+			80,
+			83,
+			87,
+			99,
+			107,
+			111,
+			127,
+			131,
+			136,
+			142,
+			162,
+			170,
+			178,
+			182,
+			197,
+			210
+		],
+		"runtime": 0.3523240089416504
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}

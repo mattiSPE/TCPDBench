@@ -1,0 +1,40 @@
+{
+	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/usd_isk.json --method knn --segmentation-type bs --n-estimators 100",
+	"dataset": "usd_isk",
+	"dataset_md5": "5cac2807a0e280c8ffd7321662e339ac",
+	"error": null,
+	"hostname": "Mattis-MacBook",
+	"parameters": {
+		"max_depth": 8,
+		"method": "knn",
+		"mtry": "sqrt",
+		"n_estimators": 100,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			16,
+			20,
+			48,
+			60,
+			69,
+			111,
+			117,
+			120,
+			139,
+			155,
+			171,
+			190,
+			200,
+			207,
+			211,
+			217,
+			237
+		],
+		"runtime": 0.008481979370117188
+	},
+	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpd_changeforest.py",
+	"script_md5": "7f814af7c82e25878a23e195d2a98c03",
+	"status": "SUCCESS"
+}
