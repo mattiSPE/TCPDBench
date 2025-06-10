@@ -1,7 +1,8 @@
 */__pycache__/
 *.pyc
-datasets/
+datasets
 .Renviron
 .Rprofile
 abed_tasks.txt
 execs/R/rlibs/
+.venv/
