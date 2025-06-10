@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/centralia.json -p SIC -f var -t Normal -m SegNeigh -Q max --pen.value NULL",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R",
-	"script_md5" : "6175ed267f515e2958637075675272db",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/centralia.json -p SIC -f var -t Normal -m SegNeigh -Q max --pen.value NULL",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "91e68c58b1c502525e324b10933fc656",
+	"hostname" : "nyx",
 	"dataset" : "centralia",
 	"dataset_md5" : "addb9b70ac1294eba6da958f3ab26595",
 	"status" : "SUCCESS",
@@ -19,6 +19,6 @@
 		"cplocations" : [
 			14
 		],
-		"runtime" : 0.001608133
+		"runtime" : 0.002581596
 	}
 } 

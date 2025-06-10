@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/gdp_iran.json -a e.agglo --siglvl 0.01 --minsize 2 --alpha 1.0",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R",
-	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
-	"hostname" : "cb722d1c-4df6-4e0f-907a-74946cce2b7e.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/gdp_iran.json -a e.agglo --siglvl 0.01 --minsize 2 --alpha 1.0",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "a9174cb1682ef279a06637d2197d9305",
+	"hostname" : "archlinux",
 	"dataset" : "gdp_iran",
 	"dataset_md5" : "889e9fc6292125189fd3188396167431",
 	"status" : "SUCCESS",
@@ -11,7 +11,6 @@
 		"algorithm" : "e.agglo",
 		"alpha" : 1,
 		"cost" : 1,
-		"maxcp" : null,
 		"minsize" : 2,
 		"runs" : 199,
 		"siglvl" : 0.01
@@ -23,6 +22,6 @@
 			47,
 			58
 		],
-		"runtime" : 0.03824282
+		"runtime" : 0.07982421
 	}
 } 

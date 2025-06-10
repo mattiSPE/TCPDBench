@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepointnp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/seatbelts.json -p AIC -q 40 --pen.value NULL",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepointnp.R",
-	"script_md5" : "900c8687ad78bde19902400624e57d8b",
-	"hostname" : "676b8f68-217b-44e6-9d9c-9c1c62a56fba.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepointnp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/seatbelts.json -p AIC -q 40 --pen.value NULL",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepointnp.R",
+	"script_md5" : "109b53a40dbe86dab143c2ba02f58e97",
+	"hostname" : "nyx",
 	"dataset" : "seatbelts",
 	"dataset_md5" : "976ef4318e7b6381ff37dd4ac8029718",
 	"status" : "SUCCESS",
@@ -56,6 +56,6 @@
 			187,
 			191
 		],
-		"runtime" : 0.001166105
+		"runtime" : 0.001648664
 	}
 } 

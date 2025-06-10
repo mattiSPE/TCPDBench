@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/bitcoin.json -K default -p SSIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "Mac.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/bitcoin.json -K default -p SSIC -g true",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "gertjan-arch",
 	"dataset" : "bitcoin",
 	"dataset_md5" : "f90ff14ed1fc0c3d47d4394d25cbce93",
 	"status" : "SUCCESS",
@@ -17,7 +17,7 @@
 	"result" : {
 		"cplocations" : [
 			91,
-			121,
+			122,
 			194,
 			331,
 			400,
@@ -50,7 +50,7 @@
 			618,
 			623,
 			628,
-			630,
+			631,
 			639,
 			642,
 			648,
@@ -60,12 +60,11 @@
 			677,
 			700,
 			702,
-			704,
 			746,
 			759,
 			764,
 			771
 		],
-		"runtime" : 0.02769995
+		"runtime" : 0.2213321
 	}
 } 

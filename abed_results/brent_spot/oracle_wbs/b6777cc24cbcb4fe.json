@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/brent_spot.json -K default --penalty SSIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "Mac.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/brent_spot.json -K default --penalty SSIC -g true",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "gertjan-arch",
 	"dataset" : "brent_spot",
 	"dataset_md5" : "79892116ef8a0aa16e2450123655b31d",
 	"status" : "SUCCESS",
@@ -16,7 +16,6 @@
 	},
 	"result" : {
 		"cplocations" : [
-			23,
 			44,
 			56,
 			75,
@@ -26,12 +25,12 @@
 			141,
 			160,
 			171,
-			185,
-			199,
+			188,
+			200,
 			207,
+			211,
 			213,
 			219,
-			221,
 			223,
 			224,
 			226,
@@ -43,7 +42,8 @@
 			283,
 			294,
 			307,
-			314,
+			313,
+			315,
 			319,
 			336,
 			342,
@@ -51,8 +51,6 @@
 			374,
 			376,
 			378,
-			380,
-			382,
 			395,
 			404,
 			415,
@@ -63,6 +61,6 @@
 			485,
 			493
 		],
-		"runtime" : 0.02591085
+		"runtime" : 0.1316211
 	}
 } 

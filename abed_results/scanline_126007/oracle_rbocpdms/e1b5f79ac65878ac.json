@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/scanline_126007.json --intensity 50 --prior-a 0.1 --prior-b 1.0 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/scanline_126007.json --intensity 50 --prior-a 0.1 --prior-b 1.0 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
 	"dataset": "scanline_126007",
 	"dataset_md5": "057d5741b623308af00c42e2c8e525c3",
 	"error": null,
-	"hostname": "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -30,9 +30,9 @@
 	},
 	"result": {
 		"cplocations": null,
-		"runtime": null
+		"runtime": 1800.1183443069458
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py",
-	"script_md5": "bb0ac658440a683101c10dee25f28df2",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py",
+	"script_md5": "729c93e339280edf8cd7ad82d0e5e064",
+	"status": "TIMEOUT"
 }

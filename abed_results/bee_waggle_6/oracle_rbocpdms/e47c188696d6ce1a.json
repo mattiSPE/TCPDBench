@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/bee_waggle_6.json --intensity 200 --prior-a 100 --prior-b 10 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/bee_waggle_6.json --intensity 200 --prior-a 100 --prior-b 10 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
 	"dataset": "bee_waggle_6",
-	"dataset_md5": "b9a8624334da778dd9d6aaf862a03093",
+	"dataset_md5": "4f03feafecb3be0b069b3cb0d6b17d4f",
 	"error": null,
-	"hostname": "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 4,
 		"S2": 1,
@@ -30,9 +30,9 @@
 	},
 	"result": {
 		"cplocations": null,
-		"runtime": null
+		"runtime": 1800.1227617263794
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py",
-	"script_md5": "bb0ac658440a683101c10dee25f28df2",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py",
+	"script_md5": "729c93e339280edf8cd7ad82d0e5e064",
+	"status": "TIMEOUT"
 }

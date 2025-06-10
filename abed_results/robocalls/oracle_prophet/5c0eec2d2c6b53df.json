@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/robocalls.json -N default",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R",
-	"script_md5" : "651dab1a04514f68e3d9719059dbc93f",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/robocalls.json -N default",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R",
+	"script_md5" : "c6a9f7404f11ab6108d72723fe5ff253",
+	"hostname" : "nyx",
 	"dataset" : "robocalls",
 	"dataset_md5" : "f67ec0ccb50f2a835912e5c51932c083",
 	"status" : "SUCCESS",
@@ -17,6 +17,6 @@
 	},
 	"result" : {
 		"cplocations" : [],
-		"runtime" : 0.1187148
+		"runtime" : 0.1399498
 	}
 } 

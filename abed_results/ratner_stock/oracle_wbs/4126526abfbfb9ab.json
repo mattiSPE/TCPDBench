@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/ratner_stock.json -K default --penalty BIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/ratner_stock.json -K default --penalty BIC -g true",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "gertjan-arch",
 	"dataset" : "ratner_stock",
 	"dataset_md5" : "f7086ff916f35b88463bf8fd1857815e",
 	"status" : "SUCCESS",
@@ -19,8 +19,6 @@
 			5,
 			10,
 			16,
-			29,
-			31,
 			34,
 			44,
 			46,
@@ -66,6 +64,6 @@
 			526,
 			559
 		],
-		"runtime" : 0.02996683
+		"runtime" : 0.1325119
 	}
 } 

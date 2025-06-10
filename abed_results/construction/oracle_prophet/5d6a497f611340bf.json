@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/construction.json -N max",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R",
-	"script_md5" : "651dab1a04514f68e3d9719059dbc93f",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/construction.json -N max",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R",
+	"script_md5" : "c6a9f7404f11ab6108d72723fe5ff253",
+	"hostname" : "nyx",
 	"dataset" : "construction",
 	"dataset_md5" : "fb0347dc9fd353b11b35e99f7d531f13",
 	"status" : "SUCCESS",
@@ -17,6 +17,10 @@
 	},
 	"result" : {
 		"cplocations" : [
+			94,
+			95,
+			96,
+			97,
 			98,
 			99,
 			100,
@@ -65,22 +69,9 @@
 			143,
 			144,
 			145,
-			226,
-			227,
-			228,
-			229,
-			230,
-			231,
-			232,
-			233,
-			234,
-			235,
-			236,
-			237,
-			238,
-			239,
-			240
+			146,
+			147
 		],
-		"runtime" : 0.3621418
+		"runtime" : 0.9176722
 	}
 } 

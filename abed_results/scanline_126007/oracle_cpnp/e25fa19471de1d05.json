@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepointnp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/scanline_126007.json -p BIC -q 10 --pen.value NULL",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepointnp.R",
-	"script_md5" : "900c8687ad78bde19902400624e57d8b",
-	"hostname" : "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepointnp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/scanline_126007.json -p BIC -q 10 --pen.value NULL",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepointnp.R",
+	"script_md5" : "109b53a40dbe86dab143c2ba02f58e97",
+	"hostname" : "nyx",
 	"dataset" : "scanline_126007",
 	"dataset_md5" : "057d5741b623308af00c42e2c8e525c3",
 	"status" : "SUCCESS",
@@ -42,6 +42,6 @@
 			475,
 			480
 		],
-		"runtime" : 0.001496077
+		"runtime" : 0.003506899
 	}
 } 

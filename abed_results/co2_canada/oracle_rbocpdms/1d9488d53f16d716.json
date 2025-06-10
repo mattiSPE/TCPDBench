@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/co2_canada.json --intensity 10 --prior-a 10 --prior-b 0.1 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/co2_canada.json --intensity 10 --prior-a 10 --prior-b 0.1 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
 	"dataset": "co2_canada",
 	"dataset_md5": "de8d2cac911d2a8e3ce5addacbaed8e0",
 	"error": null,
-	"hostname": "Mattiss-MacBook-Pro.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -29,10 +29,24 @@
 		"use_timeout": true
 	},
 	"result": {
-		"cplocations": null,
-		"runtime": null
+		"cplocations": [
+			1,
+			2,
+			101,
+			103,
+			105,
+			107,
+			109,
+			114,
+			121,
+			130,
+			132,
+			134,
+			137
+		],
+		"runtime": 761.2489356994629
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py",
-	"script_md5": "bb0ac658440a683101c10dee25f28df2",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py",
+	"script_md5": "729c93e339280edf8cd7ad82d0e5e064",
+	"status": "SUCCESS"
 }

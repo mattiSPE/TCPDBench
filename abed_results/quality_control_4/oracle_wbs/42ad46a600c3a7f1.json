@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/quality_control_4.json -K default --penalty MBIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "676b8f68-217b-44e6-9d9c-9c1c62a56fba.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/quality_control_4.json -K default --penalty MBIC -g true",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "gertjan-arch",
 	"dataset" : "quality_control_4",
 	"dataset_md5" : "1efedb9a52cd0b9a9250cf9781c5f7ef",
 	"status" : "SUCCESS",
@@ -24,10 +24,11 @@
 			59,
 			66,
 			78,
-			87,
-			95,
+			86,
+			97,
 			108,
-			115,
+			118,
+			130,
 			139,
 			146,
 			157,
@@ -39,7 +40,7 @@
 			217,
 			226,
 			238,
-			246,
+			247,
 			258,
 			266,
 			278,
@@ -60,12 +61,12 @@
 			415,
 			427,
 			437,
-			446,
+			448,
 			457,
 			467,
 			476,
 			487
 		],
-		"runtime" : 0.02493691
+		"runtime" : 0.2298284
 	}
 } 

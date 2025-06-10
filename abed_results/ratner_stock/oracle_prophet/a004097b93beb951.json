@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/ratner_stock.json -N max",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R",
-	"script_md5" : "651dab1a04514f68e3d9719059dbc93f",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/ratner_stock.json -N max",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R",
+	"script_md5" : "c6a9f7404f11ab6108d72723fe5ff253",
+	"hostname" : "nyx",
 	"dataset" : "ratner_stock",
 	"dataset_md5" : "f7086ff916f35b88463bf8fd1857815e",
 	"status" : "SUCCESS",
@@ -17,6 +17,9 @@
 	},
 	"result" : {
 		"cplocations" : [
+			17,
+			18,
+			19,
 			20,
 			21,
 			22,
@@ -38,6 +41,7 @@
 			38,
 			39,
 			40,
+			41,
 			120,
 			121,
 			122,
@@ -51,6 +55,8 @@
 			130,
 			131,
 			132,
+			133,
+			158,
 			159,
 			160,
 			161,
@@ -100,6 +106,8 @@
 			205,
 			206,
 			207,
+			208,
+			225,
 			226,
 			227,
 			228,
@@ -107,6 +115,8 @@
 			230,
 			231,
 			232,
+			298,
+			299,
 			300,
 			301,
 			302,
@@ -151,7 +161,7 @@
 			341,
 			342,
 			343,
-			466,
+			344,
 			468,
 			469,
 			470,
@@ -174,6 +184,6 @@
 			487,
 			488
 		],
-		"runtime" : 1.159912
+		"runtime" : 15.07374
 	}
 } 

@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/lga_passengers.json -K default --penalty SSIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/lga_passengers.json -K default --penalty SSIC -g true",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "gertjan-arch",
 	"dataset" : "lga_passengers",
 	"dataset_md5" : "3e7bf55fac17f59b400f8a558d3f0337",
 	"status" : "SUCCESS",
@@ -24,11 +24,11 @@
 			295,
 			301,
 			326,
-			370,
+			379,
 			397,
 			422,
 			457
 		],
-		"runtime" : 0.02539015
+		"runtime" : 0.1475911
 	}
 } 

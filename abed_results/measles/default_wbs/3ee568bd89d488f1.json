@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/measles.json -K default -p SSIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "163f99ff-f4ff-4275-92cd-28247afa1be7.fritz.box",
+	"command" : "/usr/lib/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/deploy/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/deploy/cpdbench/datasets/measles.json -K default -p SSIC -g true",
+	"script" : "/home/deploy/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "scw-blissful-wiles",
 	"dataset" : "measles",
 	"dataset_md5" : "e42afd03be893fc7deb98514c94fa4c7",
 	"status" : "SUCCESS",
@@ -16,15 +16,15 @@
 	},
 	"result" : {
 		"cplocations" : [
+			7,
 			29,
-			45,
-			55,
+			50,
 			67,
 			75,
 			114,
-			135,
+			134,
 			149,
-			160,
+			161,
 			169,
 			178,
 			184,
@@ -34,7 +34,7 @@
 			259,
 			272,
 			276,
-			286,
+			287,
 			358,
 			369,
 			388,
@@ -43,7 +43,7 @@
 			464,
 			472,
 			496,
-			501,
+			500,
 			572,
 			577,
 			587,
@@ -57,15 +57,15 @@
 			708,
 			770,
 			777,
-			786,
-			798,
 			809,
 			881,
 			890,
+			897,
 			903,
 			917,
-			982
+			960,
+			981
 		],
-		"runtime" : 0.03232503
+		"runtime" : 1.257361
 	}
 } 

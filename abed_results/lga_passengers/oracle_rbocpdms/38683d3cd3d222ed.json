@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/lga_passengers.json --intensity 10 --prior-a 100 --prior-b 100 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/lga_passengers.json --intensity 10 --prior-a 100 --prior-b 100 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
 	"dataset": "lga_passengers",
 	"dataset_md5": "3e7bf55fac17f59b400f8a558d3f0337",
 	"error": null,
-	"hostname": "163f99ff-f4ff-4275-92cd-28247afa1be7.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -30,9 +30,9 @@
 	},
 	"result": {
 		"cplocations": null,
-		"runtime": null
+		"runtime": 1800.1208260059357
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py",
-	"script_md5": "bb0ac658440a683101c10dee25f28df2",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py",
+	"script_md5": "729c93e339280edf8cd7ad82d0e5e064",
+	"status": "TIMEOUT"
 }

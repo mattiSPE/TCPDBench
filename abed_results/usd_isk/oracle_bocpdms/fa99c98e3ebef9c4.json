@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/usd_isk.json --intensity 100 --prior-a 100 --prior-b 10 --threshold 100 --use-timeout",
+	"command": "/home/gertjan/tmp/tmp_cpdbench/execs/python/cpdbench_bocpdms.py -i /home/gertjan/tmp/tmp_cpdbench/datasets/usd_isk.json --intensity 100 --prior-a 100 --prior-b 10 --threshold 100 --use-timeout",
 	"dataset": "usd_isk",
 	"dataset_md5": "5cac2807a0e280c8ffd7321662e339ac",
 	"error": null,
-	"hostname": "Mattiss-MacBook-Pro.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -19,10 +19,16 @@
 		"use_timeout": true
 	},
 	"result": {
-		"cplocations": null,
-		"runtime": null
+		"cplocations": [
+			1,
+			2,
+			9,
+			117,
+			121
+		],
+		"runtime": 9.403770685195923
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py",
-	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
-	"status": "FAIL"
+	"script": "/home/gertjan/tmp/tmp_cpdbench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "db575e9e49ab0c7ab4f9a88093df095f",
+	"status": "SUCCESS"
 }

@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/gdp_croatia.json --intensity 50 --prior-a 100 --prior-b 10 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/gdp_croatia.json --intensity 50 --prior-a 100 --prior-b 10 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
 	"dataset": "gdp_croatia",
 	"dataset_md5": "4f902ba68bf710fa245e5eb0ab35fea7",
 	"error": null,
-	"hostname": "Mattiss-MacBook-Pro.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -29,10 +29,14 @@
 		"use_timeout": true
 	},
 	"result": {
-		"cplocations": null,
-		"runtime": null
+		"cplocations": [
+			1,
+			2,
+			8
+		],
+		"runtime": 7.952561616897583
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_rbocpdms.py",
-	"script_md5": "bb0ac658440a683101c10dee25f28df2",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_rbocpdms.py",
+	"script_md5": "729c93e339280edf8cd7ad82d0e5e064",
+	"status": "SUCCESS"
 }

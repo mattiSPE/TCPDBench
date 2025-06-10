@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/global_co2.json -a e.divisive --alpha 1.0 --minsize 30 --runs 199 --siglvl 0.05",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R",
-	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
-	"hostname" : "cfc834f4-7666-4dec-9996-75db45c1162f.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/global_co2.json -a e.divisive --alpha 1.0 --minsize 30 --runs 199 --siglvl 0.05",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "a9174cb1682ef279a06637d2197d9305",
+	"hostname" : "gertjan-arch",
 	"dataset" : "global_co2",
 	"dataset_md5" : "7c8edd8887f51a6f841cc9d806ab4e56",
 	"status" : "SUCCESS",
@@ -12,7 +12,6 @@
 		"algorithm" : "e.divisive",
 		"alpha" : 1,
 		"cost" : 1,
-		"maxcp" : null,
 		"minsize" : 30,
 		"runs" : 199,
 		"siglvl" : 0.05
@@ -20,10 +19,10 @@
 	"result" : {
 		"cplocations" : [
 			0,
-			44,
+			43,
 			74,
 			104
 		],
-		"runtime" : 0.05767298
+		"runtime" : 0.3128219
 	}
 } 

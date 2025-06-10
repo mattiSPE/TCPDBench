@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/scanline_126007.json -a e.divisive --siglvl 0.05 --minsize 2 --alpha 0.5",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R",
-	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
-	"hostname" : "Mac.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/scanline_126007.json -a e.divisive --siglvl 0.05 --minsize 2 --alpha 0.5",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "a9174cb1682ef279a06637d2197d9305",
+	"hostname" : "archlinux",
 	"dataset" : "scanline_126007",
 	"dataset_md5" : "057d5741b623308af00c42e2c8e525c3",
 	"status" : "SUCCESS",
@@ -12,7 +12,6 @@
 		"algorithm" : "e.divisive",
 		"alpha" : 0.5,
 		"cost" : 1,
-		"maxcp" : null,
 		"minsize" : 2,
 		"runs" : 199,
 		"siglvl" : 0.05
@@ -21,15 +20,15 @@
 		"cplocations" : [
 			0,
 			37,
-			52,
+			51,
 			79,
 			106,
 			117,
 			137,
-			154,
+			153,
 			163,
-			174,
-			178,
+			173,
+			179,
 			251,
 			265,
 			280,
@@ -44,10 +43,11 @@
 			390,
 			394,
 			399,
-			404,
+			403,
 			466,
+			476,
 			481
 		],
-		"runtime" : 8.748446
+		"runtime" : 12.80378
 	}
 } 

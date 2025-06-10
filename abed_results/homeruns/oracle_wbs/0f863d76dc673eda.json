@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/homeruns.json -K default --penalty BIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "Mac.fritz.box",
+	"command" : "/usr/lib/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/deploy/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/deploy/cpdbench/datasets/homeruns.json -K default --penalty BIC -g true",
+	"script" : "/home/deploy/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "scw-blissful-wiles",
 	"dataset" : "homeruns",
 	"dataset_md5" : "987bbab63e2c72acba1c07325303720c",
 	"status" : "SUCCESS",
@@ -27,6 +27,6 @@
 			93,
 			114
 		],
-		"runtime" : 0.02243996
+		"runtime" : 1.100092
 	}
 } 

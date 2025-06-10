@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/children_per_woman.json --intensity 100 --prior-a 1.0 --prior-b 1.0 --threshold 0",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_bocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/children_per_woman.json --intensity 100 --prior-a 1.0 --prior-b 1.0 --threshold 0",
 	"dataset": "children_per_woman",
 	"dataset_md5": "826e0a2328b8a8a085050115768eef98",
-	"error": "OverflowError('int too large to convert to float')",
-	"hostname": "Mattiss-MacBook-Pro.fritz.box",
+	"error": null,
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -19,10 +19,13 @@
 		"use_timeout": false
 	},
 	"result": {
-		"cplocations": null,
-		"runtime": null
+		"cplocations": [
+			1,
+			2
+		],
+		"runtime": 16.841705083847046
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py",
-	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "db575e9e49ab0c7ab4f9a88093df095f",
+	"status": "SUCCESS"
 }

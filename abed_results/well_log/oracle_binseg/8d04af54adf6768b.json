@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/well_log.json -p AIC -f var -t Normal -m BinSeg -Q max --pen.value NULL",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R",
-	"script_md5" : "6175ed267f515e2958637075675272db",
-	"hostname" : "75d2343b-851a-4d94-91b7-da6a28768ed3.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/well_log.json -p AIC -f var -t Normal -m BinSeg -Q max --pen.value NULL",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "91e68c58b1c502525e324b10933fc656",
+	"hostname" : "nyx",
 	"dataset" : "well_log",
 	"dataset_md5" : "7c80d2cbd5864b923e6a653aad115de6",
 	"status" : "SUCCESS",
@@ -38,6 +38,6 @@
 			660,
 			674
 		],
-		"runtime" : 0.005908966
+		"runtime" : 0.009631157
 	}
 } 

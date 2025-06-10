@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/quality_control_3.json -p Hannan-Quinn -f meanvar -t Normal -m AMOC --pen.value NULL",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R",
-	"script_md5" : "6175ed267f515e2958637075675272db",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/quality_control_3.json -p Hannan-Quinn -f meanvar -t Normal -m AMOC --pen.value NULL",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "91e68c58b1c502525e324b10933fc656",
+	"hostname" : "nyx",
 	"dataset" : "quality_control_3",
 	"dataset_md5" : "94f55ddedd03197bc3e660f6e1d840ee",
 	"status" : "SUCCESS",
@@ -18,6 +18,6 @@
 		"cplocations" : [
 			178
 		],
-		"runtime" : 0.0007810593
+		"runtime" : 0.001217604
 	}
 } 

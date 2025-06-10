@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/robocalls.json -K max --penalty SSIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"command" : "/usr/lib/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/deploy/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/deploy/cpdbench/datasets/robocalls.json -K max --penalty SSIC -g true",
+	"script" : "/home/deploy/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "scw-blissful-wiles",
 	"dataset" : "robocalls",
 	"dataset_md5" : "f67ec0ccb50f2a835912e5c51932c083",
 	"status" : "SUCCESS",
@@ -67,6 +67,6 @@
 			49,
 			50
 		],
-		"runtime" : 0.01862311
+		"runtime" : 0.9490709
 	}
 } 

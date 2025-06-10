@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/scanline_126007.json -p None -f mean -t Normal -m PELT --pen.value NULL",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_changepoint.R",
-	"script_md5" : "6175ed267f515e2958637075675272db",
-	"hostname" : "Mac.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/scanline_126007.json -p None -f mean -t Normal -m PELT --pen.value NULL",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "91e68c58b1c502525e324b10933fc656",
+	"hostname" : "nyx",
 	"dataset" : "scanline_126007",
 	"dataset_md5" : "057d5741b623308af00c42e2c8e525c3",
 	"status" : "SUCCESS",
@@ -76,6 +76,7 @@
 			59,
 			60,
 			61,
+			62,
 			64,
 			65,
 			66,
@@ -271,6 +272,7 @@
 			268,
 			269,
 			271,
+			272,
 			273,
 			274,
 			275,
@@ -371,7 +373,6 @@
 			376,
 			377,
 			378,
-			379,
 			380,
 			381,
 			382,
@@ -468,6 +469,6 @@
 			479,
 			480
 		],
-		"runtime" : 0.0007030964
+		"runtime" : 0.001282454
 	}
 } 

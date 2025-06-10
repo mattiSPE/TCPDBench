@@ -1,21 +1,19 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/shanghai_license.json -a kcpa -C 1.0 -L max",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ecp.R",
-	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
-	"hostname" : "Mac.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/shanghai_license.json -a kcpa -C 1.0 -L max",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "a9174cb1682ef279a06637d2197d9305",
+	"hostname" : "gertjan-arch",
 	"dataset" : "shanghai_license",
 	"dataset_md5" : "b4ac173eb6c0a1a4d10268abc109eda1",
 	"status" : "SUCCESS",
 	"parameters" : {
 		"L" : 205,
 		"algorithm" : "kcpa",
-		"alpha" : null,
 		"cost" : 1,
 		"maxcp" : "max",
 		"minsize" : 30,
-		"runs" : 199,
-		"siglvl" : null
+		"runs" : 199
 	},
 	"result" : {
 		"cplocations" : [
@@ -225,6 +223,6 @@
 			204,
 			205
 		],
-		"runtime" : 0.2246921
+		"runtime" : 3.946172
 	}
 } 

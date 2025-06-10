@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ocp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/measles.json -l 100 --prior-a 0.01 --prior-b 10 --prior-k 10",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ocp.R",
-	"script_md5" : "909dde17ff91cf60fd649fd6e75ac2fd",
-	"hostname" : "Mattiss-MacBook-Pro.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ocp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/measles.json -l 100 --prior-a 0.01 --prior-b 10 --prior-k 10",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ocp.R",
+	"script_md5" : "566236fe18f3e7c48a5f3b6e0c71c2af",
+	"hostname" : "nyx",
 	"dataset" : "measles",
 	"dataset_md5" : "e42afd03be893fc7deb98514c94fa4c7",
 	"status" : "SUCCESS",
@@ -41,6 +41,6 @@
 			884,
 			904
 		],
-		"runtime" : 0.2406681
+		"runtime" : 0.5720625
 	}
 } 

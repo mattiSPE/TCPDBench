@@ -1,48 +1,9 @@
-[1] "predprobs not numeric"
-[1] "time 56"
-[1] "current predProbs"
-          [,1]
-[1,] -364.5203
-[2,]      -Inf
-[1] "updateresults: "
-$update_paramsT
-$update_paramsT$muT
-         [,1]
-[1,] 0.000000
-[2,] 8.573655
-[3,] 4.396852
-
-$update_paramsT$kappaT
-[1] 0.01 1.01 2.01
-
-$update_paramsT$alphaT
-[1] 100.0 100.5 101.0
-
-$update_paramsT$betaT
-           [,1]
-[1,]  0.0100000
-[2,]  0.3812132
-[3,] 18.0894544
-
-
-$predProb
-          [,1]
-[1,] -364.5203
-[2,]      -Inf
-
-$currpt
-       v 
-8.659392 
-
-$currmu
-[1] 8.573655
-
 {
 	"error" : "error with pred probs",
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ocp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/apple.json -l 50 --prior-a 100 --prior-b 0.01 --prior-k 0.01",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ocp.R",
-	"script_md5" : "909dde17ff91cf60fd649fd6e75ac2fd",
-	"hostname" : "ea34a5a7-52d5-4da8-bd51-d16c831c7c66.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ocp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/apple.json -l 50 --prior-a 100 --prior-b 0.01 --prior-k 0.01",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ocp.R",
+	"script_md5" : "566236fe18f3e7c48a5f3b6e0c71c2af",
+	"hostname" : "nyx",
 	"dataset" : "apple",
 	"dataset_md5" : "22edb48471bd3711f7a6e15de6413643",
 	"status" : "FAIL",
@@ -64,4 +25,4 @@ $currmu
 		"cplocations" : null,
 		"runtime" : null
 	}
-} 
+}

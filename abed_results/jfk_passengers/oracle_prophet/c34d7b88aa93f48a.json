@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/jfk_passengers.json -N max",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_prophet.R",
-	"script_md5" : "651dab1a04514f68e3d9719059dbc93f",
-	"hostname" : "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/jfk_passengers.json -N max",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_prophet.R",
+	"script_md5" : "c6a9f7404f11ab6108d72723fe5ff253",
+	"hostname" : "nyx",
 	"dataset" : "jfk_passengers",
 	"dataset_md5" : "9655295214078f2a45a4c18e6c4e6d0d",
 	"status" : "SUCCESS",
@@ -44,7 +44,6 @@
 			95,
 			96,
 			97,
-			188,
 			189,
 			190,
 			191,
@@ -57,6 +56,8 @@
 			198,
 			199,
 			200,
+			201,
+			285,
 			286,
 			287,
 			288,
@@ -106,6 +107,6 @@
 			376,
 			377
 		],
-		"runtime" : 0.5683599
+		"runtime" : 2.093148
 	}
 } 

@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/seatbelts.json --intensity 10 --prior-a 1.0 --prior-b 0.1 --threshold 100 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_bocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/seatbelts.json --intensity 10 --prior-a 1.0 --prior-b 0.1 --threshold 100 --use-timeout",
 	"dataset": "seatbelts",
 	"dataset_md5": "976ef4318e7b6381ff37dd4ac8029718",
 	"error": null,
-	"hostname": "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -19,10 +19,13 @@
 		"use_timeout": true
 	},
 	"result": {
-		"cplocations": null,
-		"runtime": null
+		"cplocations": [
+			3,
+			10
+		],
+		"runtime": 8.710885524749756
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py",
-	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "db575e9e49ab0c7ab4f9a88093df095f",
+	"status": "SUCCESS"
 }

@@ -1,9 +1,9 @@
 {
-	"command": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/bank.json --intensity 50 --prior-a 10 --prior-b 0.1 --threshold 100 --use-timeout",
+	"command": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_bocpdms.py -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/bank.json --intensity 50 --prior-a 10 --prior-b 0.1 --threshold 100 --use-timeout",
 	"dataset": "bank",
 	"dataset_md5": "5207135ea53fc6fa2a8119908da73abf",
 	"error": null,
-	"hostname": "ca6be644-cdca-4a13-be63-c62ff1515ead.fritz.box",
+	"hostname": "nyx",
 	"parameters": {
 		"S1": 1,
 		"S2": 1,
@@ -19,10 +19,22 @@
 		"use_timeout": true
 	},
 	"result": {
-		"cplocations": null,
-		"runtime": null
+		"cplocations": [
+			1,
+			2,
+			56,
+			68,
+			86,
+			104,
+			155,
+			169,
+			449,
+			454,
+			474
+		],
+		"runtime": 33.44734334945679
 	},
-	"script": "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/python/cpdbench_bocpdms.py",
-	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
-	"status": "FAIL"
+	"script": "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "db575e9e49ab0c7ab4f9a88093df095f",
+	"status": "SUCCESS"
 }

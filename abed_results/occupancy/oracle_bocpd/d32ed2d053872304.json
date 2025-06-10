@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ocp.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/occupancy.json -l 10 --prior-a 1.0 --prior-b 100 --prior-k 10",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_ocp.R",
-	"script_md5" : "909dde17ff91cf60fd649fd6e75ac2fd",
-	"hostname" : "443878ff-aa03-43d4-94ea-2ffbebcafde7.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ocp.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/occupancy.json -l 10 --prior-a 1.0 --prior-b 100 --prior-k 10",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_ocp.R",
+	"script_md5" : "566236fe18f3e7c48a5f3b6e0c71c2af",
+	"hostname" : "nyx",
 	"dataset" : "occupancy",
 	"dataset_md5" : "bc6cd9adaf496fe30bf0e417d2c3b0c6",
 	"status" : "SUCCESS",
@@ -26,6 +26,6 @@
 			0,
 			419
 		],
-		"runtime" : 0.2662761
+		"runtime" : 0.8897219
 	}
 } 

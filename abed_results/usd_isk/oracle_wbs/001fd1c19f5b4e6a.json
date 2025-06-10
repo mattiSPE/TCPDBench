@@ -1,9 +1,9 @@
 {
 	"error" : null,
-	"command" : "/opt/homebrew/Cellar/r/4.5.0_1/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R --args -i /Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/datasets/usd_isk.json -K default --penalty SSIC -g true",
-	"script" : "/Users/mattis/Documents/MyPythonProject/master_thesis/git/TCPDBench/execs/R/cpdbench_wbs.R",
-	"script_md5" : "155041b2e01ba0b7ece7753cb145ea9a",
-	"hostname" : "ca6be644-cdca-4a13-be63-c62ff1515ead.fritz.box",
+	"command" : "/usr/lib64/R/bin/exec/R --slave --no-restore --no-save --slave --file=/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R --args -i /home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/datasets/usd_isk.json -K default --penalty SSIC -g true",
+	"script" : "/home/gertjan/share/work/turing/aida/research/projects/changepoint/experiments/cpdbench/execs/R/cpdbench_wbs.R",
+	"script_md5" : "588c2d49021cd08dd01943afb53e1328",
+	"hostname" : "gertjan-arch",
 	"dataset" : "usd_isk",
 	"dataset_md5" : "5cac2807a0e280c8ffd7321662e339ac",
 	"status" : "SUCCESS",
@@ -17,13 +17,14 @@
 	"result" : {
 		"cplocations" : [
 			15,
-			20,
-			27,
+			19,
+			26,
 			39,
 			46,
 			48,
 			58,
 			69,
+			70,
 			85,
 			90,
 			98,
@@ -36,12 +37,12 @@
 			138,
 			154,
 			178,
-			190,
+			189,
 			206,
 			211,
 			219,
 			236
 		],
-		"runtime" : 0.02413607
+		"runtime" : 0.1935461
 	}
 } 
