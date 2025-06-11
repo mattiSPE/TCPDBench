@@ -15,6 +15,18 @@
 
 # Additional Installations
 ## [TCPD](https://github.com/alan-turing-institute/TCPD)
+There's a small patch for 'build_tcpd.py' which will avoid reloading of a particular dataset, in case it's already existing:
+```
+def collect_dataset(name, script):
+-    return run_dataset_func(name, script, "collect")
++    dir_path = os.path.join(DATASET_DIR, name)
++    dataset_path = os.path.join(dir_path, f"{name}.json")
++    if not os.path.exists(dataset_path):
++        return run_dataset_func(name, script, "collect")
++    return None
+```
+In addition, the file 'checksums.json' might need to be changed/extended to reflect the current MD5 checksums of the downloaded datasets.
+ 
 - git clone https://github.com/alan-turing-institute/TCPD.git
 - make export
 
@@ -23,9 +35,7 @@
 - ln -s ../TCPD/export datasets
 
 ### Setup Python
-- create sym-link for 'python' to 'python3'
-
-Create 'master' venv for all further execution (make & abed), since the usage of 'pip' is blocked by Debian-12
+Create 'master' venv for all further execution (make & abed), since the usage of 'pip' is blocked by Debian-12 and MacOS doesn't allow 'global' symlink for 'python' which is provided by the 'venv' in addition to symlink for 'pip' as well.
 
 - python3 -m venv .venv && source .venv/bin/activate
 - pip install -r ./analysis/requirements.txt
