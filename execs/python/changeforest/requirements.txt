@@ -2,3 +2,4 @@ scipy>=1.1.0
 matplotlib>=2.2.2
 pytest>=3.7.1
 changeforest>=1.1.4
+pandas>=0.23.4
