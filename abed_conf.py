@@ -186,8 +186,8 @@ PARAMS = {
         for c in cpt_manual_penalty
     ],
     "oracle_changeforest": [
-        {"x_method": m, "segmentation_type": s, "n_estimators": n, "max_depth": t, "feature_split": f}
-        for m in ["knn", "change_in_mean", "random_forest"]
+        {"x_method": "random_forest", "segmentation_type": s, "n_estimators": n, "max_depth": t, "feature_split": f}
+        #for m in ["knn", "change_in_mean", "random_forest"]
         for s in ["bs", "wbs", "sbs"]
         for n in [20, 100, 500]
         for t in [2, 8, 100]
