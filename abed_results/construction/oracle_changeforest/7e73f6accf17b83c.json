@@ -1,0 +1,35 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/construction.json --method random_forest --segmentation-type wbs --n-estimators 100 --max-depth 100 --feature_split 1",
+	"dataset": "construction",
+	"dataset_md5": "fb0347dc9fd353b11b35e99f7d531f13",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			17,
+			63,
+			125,
+			135,
+			149,
+			178,
+			191,
+			203,
+			233,
+			254,
+			268,
+			279
+		],
+		"runtime": 2.593564748764038
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

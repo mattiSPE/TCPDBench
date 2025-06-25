@@ -1,0 +1,36 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/global_co2.json --method random_forest --segmentation-type bs --n-estimators 500 --max-depth 100 --feature_split 1",
+	"dataset": "global_co2",
+	"dataset_md5": "7c8edd8887f51a6f841cc9d806ab4e56",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 500,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			45,
+			48,
+			52,
+			58,
+			61,
+			66,
+			70,
+			73,
+			79,
+			85,
+			93,
+			97,
+			101
+		],
+		"runtime": 0.30248093605041504
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

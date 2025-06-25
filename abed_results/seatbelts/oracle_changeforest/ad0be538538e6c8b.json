@@ -1,0 +1,40 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/seatbelts.json --method random_forest --segmentation-type sbs --n-estimators 100 --max-depth 8 --feature_split 1",
+	"dataset": "seatbelts",
+	"dataset_md5": "976ef4318e7b6381ff37dd4ac8029718",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			10,
+			15,
+			18,
+			56,
+			60,
+			64,
+			68,
+			72,
+			93,
+			106,
+			124,
+			130,
+			160,
+			169,
+			176,
+			180,
+			188
+		],
+		"runtime": 2.574432134628296
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

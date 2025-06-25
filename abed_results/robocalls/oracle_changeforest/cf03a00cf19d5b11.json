@@ -1,0 +1,26 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/robocalls.json --method random_forest --segmentation-type wbs --n-estimators 100 --max-depth 8 --feature_split sqrt",
+	"dataset": "robocalls",
+	"dataset_md5": "f67ec0ccb50f2a835912e5c51932c083",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			8,
+			34,
+			40
+		],
+		"runtime": 0.940051794052124
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

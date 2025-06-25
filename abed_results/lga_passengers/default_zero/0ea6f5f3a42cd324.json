@@ -1,0 +1,15 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py -i /var/home/markus/workspace/TCPDBench/datasets/lga_passengers.json",
+	"dataset": "lga_passengers",
+	"dataset_md5": "3e7bf55fac17f59b400f8a558d3f0337",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {},
+	"result": {
+		"cplocations": [],
+		"runtime": 9.5367431640625e-07
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py",
+	"script_md5": "95b65ddd5669b41385966a4aad387118",
+	"status": "SUCCESS"
+}

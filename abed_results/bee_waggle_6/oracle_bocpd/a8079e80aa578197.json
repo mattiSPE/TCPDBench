@@ -1,0 +1,48 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ocp.R --args -i /var/home/markus/workspace/TCPDBench/datasets/bee_waggle_6.json -l 200 --prior-a 0.01 --prior-b 0.1 --prior-k 10",
+	"script" : "/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ocp.R",
+	"script_md5" : "909dde17ff91cf60fd649fd6e75ac2fd",
+	"hostname" : "abed2",
+	"dataset" : "bee_waggle_6",
+	"dataset_md5" : "f93c76c16e40ef7f71288ed9fb29bb83",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"missPts" : "none",
+		"cpthreshold" : 0.5,
+		"truncRlim" : 0.0001,
+		"minRlength" : 1,
+		"maxRlength" : 10000,
+		"minsep" : 1,
+		"maxsep" : 10000,
+		"multivariate" : true,
+		"lambda" : 200,
+		"prior_a" : 0.01,
+		"prior_b" : 0.1,
+		"prior_k" : 10
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			20,
+			41,
+			98,
+			125,
+			173,
+			188,
+			219,
+			248,
+			271,
+			294,
+			328,
+			349,
+			373,
+			412,
+			440,
+			502,
+			526,
+			557
+		],
+		"runtime" : 1.52569
+	}
+} 

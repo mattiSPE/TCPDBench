@@ -1,0 +1,50 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py -i /var/home/markus/workspace/TCPDBench/datasets/scanline_42049.json --intensity 10 --prior-a 100 --prior-b 1.0 --threshold 100 --use-timeout",
+	"dataset": "scanline_42049",
+	"dataset_md5": "39921dfa959576bd0b3d6c95558f17f4",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"S1": 1,
+		"S2": 1,
+		"intensity": 10.0,
+		"intercept_grouping": null,
+		"lower_AR": 1,
+		"prior_a": 100.0,
+		"prior_b": 1.0,
+		"prior_mean_scale": 0,
+		"prior_var_scale": 1,
+		"threshold": 100,
+		"upper_AR": 3,
+		"use_timeout": true
+	},
+	"result": {
+		"cplocations": [
+			2,
+			3,
+			55,
+			61,
+			77,
+			78,
+			79,
+			183,
+			185,
+			274,
+			275,
+			277,
+			348,
+			353,
+			362,
+			363,
+			367,
+			466,
+			467,
+			477,
+			478
+		],
+		"runtime": 83.91932892799377
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
+	"status": "SUCCESS"
+}

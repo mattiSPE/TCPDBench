@@ -1,0 +1,36 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/uk_coal_employ.json --method random_forest --segmentation-type wbs --n-estimators 20 --max-depth 100 --feature_split sqrt",
+	"dataset": "uk_coal_employ",
+	"dataset_md5": "a7c72746e46d6e09f516bd87e0e68bef",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			15,
+			18,
+			28,
+			33,
+			47,
+			52,
+			60,
+			65,
+			68,
+			72,
+			78,
+			92,
+			100
+		],
+		"runtime": 0.8176901340484619
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

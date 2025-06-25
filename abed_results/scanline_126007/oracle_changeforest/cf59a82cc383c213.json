@@ -1,0 +1,53 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/scanline_126007.json --method random_forest --segmentation-type wbs --n-estimators 500 --max-depth 2 --feature_split all",
+	"dataset": "scanline_126007",
+	"dataset_md5": "057d5741b623308af00c42e2c8e525c3",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 2,
+		"method": "random_forest",
+		"n_estimators": 500,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			6,
+			17,
+			35,
+			52,
+			60,
+			78,
+			106,
+			117,
+			127,
+			137,
+			148,
+			154,
+			164,
+			184,
+			216,
+			227,
+			251,
+			265,
+			280,
+			292,
+			324,
+			343,
+			353,
+			364,
+			376,
+			403,
+			411,
+			421,
+			466,
+			475
+		],
+		"runtime": 5.594029903411865
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

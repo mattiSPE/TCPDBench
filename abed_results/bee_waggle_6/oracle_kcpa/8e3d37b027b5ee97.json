@@ -1,0 +1,32 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R --args -i /var/home/markus/workspace/TCPDBench/datasets/bee_waggle_6.json -a kcpa --maxcp default --cost 436.51583224016565",
+	"script" : "/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "abed2",
+	"dataset" : "bee_waggle_6",
+	"dataset_md5" : "f93c76c16e40ef7f71288ed9fb29bb83",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"L" : 5,
+		"algorithm" : "kcpa",
+		"alpha" : null,
+		"cost" : 436.5158,
+		"maxcp" : "default",
+		"minsize" : 30,
+		"runs" : 199,
+		"siglvl" : null
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			41,
+			96,
+			125,
+			181,
+			218,
+			609
+		],
+		"runtime" : 195.0927
+	}
+} 

@@ -1,0 +1,53 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R --args -i /var/home/markus/workspace/TCPDBench/datasets/brent_spot.json -a e.divisive --siglvl 0.01 --minsize 2 --alpha 0.5",
+	"script" : "/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "abed2",
+	"dataset" : "brent_spot",
+	"dataset_md5" : "79892116ef8a0aa16e2450123655b31d",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"k" : "null",
+		"algorithm" : "e.divisive",
+		"alpha" : 0.5,
+		"cost" : 1,
+		"maxcp" : null,
+		"minsize" : 2,
+		"runs" : 199,
+		"siglvl" : 0.01
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			45,
+			56,
+			111,
+			133,
+			139,
+			161,
+			172,
+			189,
+			200,
+			214,
+			225,
+			241,
+			274,
+			280,
+			284,
+			337,
+			343,
+			371,
+			376,
+			396,
+			403,
+			416,
+			430,
+			453,
+			465,
+			480,
+			500
+		],
+		"runtime" : 32.48371
+	}
+} 

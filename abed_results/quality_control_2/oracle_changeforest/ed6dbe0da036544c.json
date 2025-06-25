@@ -1,0 +1,22 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/quality_control_2.json --method random_forest --segmentation-type bs --n-estimators 500 --max-depth 100 --feature_split all",
+	"dataset": "quality_control_2",
+	"dataset_md5": "919a55440bd00d635db80fe83e921c7d",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 500,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [],
+		"runtime": 0.1462254524230957
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

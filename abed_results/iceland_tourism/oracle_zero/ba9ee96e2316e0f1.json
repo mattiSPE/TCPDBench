@@ -1,0 +1,15 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py -i /var/home/markus/workspace/TCPDBench/datasets/iceland_tourism.json",
+	"dataset": "iceland_tourism",
+	"dataset_md5": "8bbac4ca95319a865f2d58ff564f063d",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {},
+	"result": {
+		"cplocations": [],
+		"runtime": 1.1920928955078125e-06
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py",
+	"script_md5": "95b65ddd5669b41385966a4aad387118",
+	"status": "SUCCESS"
+}

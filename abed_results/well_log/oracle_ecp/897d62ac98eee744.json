@@ -1,0 +1,40 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R --args -i /var/home/markus/workspace/TCPDBench/datasets/well_log.json -a e.divisive --siglvl 0.01 --minsize 2 --alpha 0.5",
+	"script" : "/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "abed2",
+	"dataset" : "well_log",
+	"dataset_md5" : "7c80d2cbd5864b923e6a653aad115de6",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"k" : "null",
+		"algorithm" : "e.divisive",
+		"alpha" : 0.5,
+		"cost" : 1,
+		"maxcp" : null,
+		"minsize" : 2,
+		"runs" : 199,
+		"siglvl" : 0.01
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			179,
+			255,
+			281,
+			311,
+			343,
+			402,
+			412,
+			422,
+			432,
+			462,
+			622,
+			658,
+			661,
+			675
+		],
+		"runtime" : 51.27295
+	}
+} 

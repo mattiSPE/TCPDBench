@@ -1,0 +1,30 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py -i /var/home/markus/workspace/TCPDBench/datasets/debt_ireland.json --intensity 100 --prior-a 1.0 --prior-b 1.0 --threshold 0",
+	"dataset": "debt_ireland",
+	"dataset_md5": "a5a9e752c338d2ffcceb614bb2064cc9",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"S1": 1,
+		"S2": 1,
+		"intensity": 100.0,
+		"intercept_grouping": null,
+		"lower_AR": 1,
+		"prior_a": 1.0,
+		"prior_b": 1.0,
+		"prior_mean_scale": 0,
+		"prior_var_scale": 1,
+		"threshold": 0,
+		"upper_AR": 2,
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			2
+		],
+		"runtime": 0.7698681354522705
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
+	"status": "SUCCESS"
+}

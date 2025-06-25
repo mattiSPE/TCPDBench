@@ -1,0 +1,40 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/lga_passengers.json --method random_forest --segmentation-type sbs --n-estimators 20 --max-depth 100 --feature_split sqrt",
+	"dataset": "lga_passengers",
+	"dataset_md5": "3e7bf55fac17f59b400f8a558d3f0337",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			5,
+			14,
+			75,
+			87,
+			110,
+			121,
+			167,
+			254,
+			265,
+			284,
+			296,
+			331,
+			340,
+			350,
+			356,
+			399,
+			447
+		],
+		"runtime": 2.9573211669921875
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

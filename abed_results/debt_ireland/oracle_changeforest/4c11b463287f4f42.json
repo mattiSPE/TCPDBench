@@ -1,0 +1,26 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/debt_ireland.json --method random_forest --segmentation-type sbs --n-estimators 500 --max-depth 100 --feature_split sqrt",
+	"dataset": "debt_ireland",
+	"dataset_md5": "a5a9e752c338d2ffcceb614bb2064cc9",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 500,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			5,
+			9,
+			17
+		],
+		"runtime": 0.9581317901611328
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

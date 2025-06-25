@@ -1,0 +1,15 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py -i /var/home/markus/workspace/TCPDBench/datasets/brent_spot.json",
+	"dataset": "brent_spot",
+	"dataset_md5": "79892116ef8a0aa16e2450123655b31d",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {},
+	"result": {
+		"cplocations": [],
+		"runtime": 7.152557373046875e-07
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py",
+	"script_md5": "95b65ddd5669b41385966a4aad387118",
+	"status": "SUCCESS"
+}

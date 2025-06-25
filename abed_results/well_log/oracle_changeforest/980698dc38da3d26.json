@@ -1,0 +1,36 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/well_log.json --method random_forest --segmentation-type sbs --n-estimators 20 --max-depth 8 --feature_split 1",
+	"dataset": "well_log",
+	"dataset_md5": "7c80d2cbd5864b923e6a653aad115de6",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			14,
+			179,
+			255,
+			282,
+			311,
+			343,
+			402,
+			412,
+			422,
+			432,
+			464,
+			622,
+			657
+		],
+		"runtime": 3.0851950645446777
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

@@ -1,0 +1,33 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/iceland_tourism.json --method random_forest --segmentation-type sbs --n-estimators 20 --max-depth 8 --feature_split all",
+	"dataset": "iceland_tourism",
+	"dataset_md5": "8bbac4ca95319a865f2d58ff564f063d",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			109,
+			122,
+			125,
+			129,
+			134,
+			149,
+			160,
+			173,
+			185,
+			190
+		],
+		"runtime": 1.7052698135375977
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

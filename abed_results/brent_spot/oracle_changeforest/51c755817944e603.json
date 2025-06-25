@@ -1,0 +1,41 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/brent_spot.json --method random_forest --segmentation-type bs --n-estimators 100 --max-depth 2 --feature_split 1",
+	"dataset": "brent_spot",
+	"dataset_md5": "79892116ef8a0aa16e2450123655b31d",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 2,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			99,
+			107,
+			117,
+			142,
+			189,
+			200,
+			209,
+			225,
+			240,
+			250,
+			279,
+			320,
+			335,
+			372,
+			379,
+			395,
+			430,
+			452
+		],
+		"runtime": 0.3200523853302002
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

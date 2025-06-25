@@ -1,0 +1,35 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R --args -i /var/home/markus/workspace/TCPDBench/datasets/robocalls.json -a kcpa --maxcp max --cost 63.0957344480193",
+	"script" : "/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "abed2",
+	"dataset" : "robocalls",
+	"dataset_md5" : "f67ec0ccb50f2a835912e5c51932c083",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"L" : 52,
+		"algorithm" : "kcpa",
+		"alpha" : null,
+		"cost" : 63.09573,
+		"maxcp" : "max",
+		"minsize" : 30,
+		"runs" : 199,
+		"siglvl" : null
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			2,
+			7,
+			8,
+			24,
+			34,
+			36,
+			41,
+			48,
+			52
+		],
+		"runtime" : 0.01420164
+	}
+} 

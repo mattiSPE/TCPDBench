@@ -1,0 +1,31 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/ozone.json --method random_forest --segmentation-type sbs --n-estimators 20 --max-depth 100 --feature_split sqrt",
+	"dataset": "ozone",
+	"dataset_md5": "348b1f85c3ec3da3b8989afe04c33b80",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			6,
+			10,
+			16,
+			23,
+			33,
+			44,
+			48,
+			51
+		],
+		"runtime": 0.8789482116699219
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

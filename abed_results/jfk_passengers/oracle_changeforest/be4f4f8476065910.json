@@ -1,0 +1,31 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/jfk_passengers.json --method random_forest --segmentation-type wbs --n-estimators 100 --max-depth 2 --feature_split 1",
+	"dataset": "jfk_passengers",
+	"dataset_md5": "9655295214078f2a45a4c18e6c4e6d0d",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 2,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			27,
+			208,
+			296,
+			302,
+			329,
+			350,
+			362,
+			424
+		],
+		"runtime": 2.9439191818237305
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

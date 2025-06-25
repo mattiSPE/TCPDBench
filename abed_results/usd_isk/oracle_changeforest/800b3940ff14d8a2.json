@@ -1,0 +1,38 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/usd_isk.json --method random_forest --segmentation-type bs --n-estimators 100 --max-depth 2 --feature_split sqrt",
+	"dataset": "usd_isk",
+	"dataset_md5": "5cac2807a0e280c8ffd7321662e339ac",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 2,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			16,
+			21,
+			48,
+			60,
+			70,
+			113,
+			120,
+			133,
+			138,
+			192,
+			200,
+			207,
+			211,
+			218,
+			237
+		],
+		"runtime": 0.22792935371398926
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

@@ -1,0 +1,15 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py -i /var/home/markus/workspace/TCPDBench/datasets/measles.json",
+	"dataset": "measles",
+	"dataset_md5": "e42afd03be893fc7deb98514c94fa4c7",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {},
+	"result": {
+		"cplocations": [],
+		"runtime": 1.430511474609375e-06
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py",
+	"script_md5": "95b65ddd5669b41385966a4aad387118",
+	"status": "SUCCESS"
+}

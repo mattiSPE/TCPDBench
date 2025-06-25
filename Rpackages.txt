@@ -6,5 +6,4 @@ lubridate
 ocp==0.1.1
 prophet==0.4
 RJSONIO
-wbs==1.4
 github:guillemr/robust-fpop@ce49c26

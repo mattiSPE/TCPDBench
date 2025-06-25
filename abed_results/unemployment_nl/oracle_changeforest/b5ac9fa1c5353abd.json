@@ -1,0 +1,41 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/unemployment_nl.json --method random_forest --segmentation-type wbs --n-estimators 20 --max-depth 100 --feature_split all",
+	"dataset": "unemployment_nl",
+	"dataset_md5": "26d8c0359de7f733a6fb51d4d60b5af6",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			7,
+			11,
+			18,
+			23,
+			36,
+			48,
+			56,
+			67,
+			71,
+			84,
+			103,
+			111,
+			121,
+			126,
+			143,
+			161,
+			166,
+			172
+		],
+		"runtime": 0.8921828269958496
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

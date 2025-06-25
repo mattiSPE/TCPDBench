@@ -1,0 +1,33 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/gdp_japan.json --method random_forest --segmentation-type sbs --n-estimators 500 --max-depth 100 --feature_split all",
+	"dataset": "gdp_japan",
+	"dataset_md5": "17026e80ab363d9f668d69900824d9ae",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 500,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			4,
+			9,
+			14,
+			20,
+			25,
+			30,
+			35,
+			42,
+			49,
+			55
+		],
+		"runtime": 2.1148810386657715
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

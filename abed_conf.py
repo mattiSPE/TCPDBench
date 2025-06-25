@@ -172,7 +172,7 @@ PARAMS = {
         for i in bocpd_intensities
         for a in bocpd_prior_a
         for b in bocpd_prior_b
-        ],
+    ],
     "oracle_ecp": [
         {"algorithm": a, "siglvl": s, "minsize": m, "alpha": v}
         for a in ["e.agglo", "e.divisive"]

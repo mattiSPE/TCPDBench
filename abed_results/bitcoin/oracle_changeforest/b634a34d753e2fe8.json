@@ -1,0 +1,51 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/bitcoin.json --method random_forest --segmentation-type bs --n-estimators 20 --max-depth 8 --feature_split sqrt",
+	"dataset": "bitcoin",
+	"dataset_md5": "f90ff14ed1fc0c3d47d4394d25cbce93",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "bs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			15,
+			89,
+			97,
+			109,
+			123,
+			197,
+			224,
+			233,
+			241,
+			330,
+			343,
+			388,
+			404,
+			434,
+			446,
+			458,
+			470,
+			490,
+			510,
+			519,
+			546,
+			571,
+			579,
+			617,
+			649,
+			701,
+			748,
+			760
+		],
+		"runtime": 0.5051741600036621
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

@@ -1,0 +1,50 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/children_per_woman.json --method random_forest --segmentation-type wbs --n-estimators 20 --max-depth 8 --feature_split 1",
+	"dataset": "children_per_woman",
+	"dataset_md5": "826e0a2328b8a8a085050115768eef98",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			8,
+			27,
+			52,
+			78,
+			86,
+			98,
+			104,
+			110,
+			115,
+			133,
+			140,
+			174,
+			183,
+			192,
+			199,
+			206,
+			214,
+			222,
+			229,
+			238,
+			246,
+			255,
+			263,
+			269,
+			276,
+			284,
+			293
+		],
+		"runtime": 0.8330113887786865
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

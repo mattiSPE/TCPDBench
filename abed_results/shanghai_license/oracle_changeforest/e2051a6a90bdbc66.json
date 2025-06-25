@@ -1,0 +1,38 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/shanghai_license.json --method random_forest --segmentation-type sbs --n-estimators 100 --max-depth 8 --feature_split all",
+	"dataset": "shanghai_license",
+	"dataset_md5": "b4ac173eb6c0a1a4d10268abc109eda1",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			12,
+			62,
+			74,
+			98,
+			108,
+			117,
+			127,
+			132,
+			142,
+			147,
+			153,
+			161,
+			170,
+			195,
+			201
+		],
+		"runtime": 1.6101458072662354
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

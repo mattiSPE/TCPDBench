@@ -1,0 +1,49 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R --args -i /var/home/markus/workspace/TCPDBench/datasets/occupancy.json -a kcpa --maxcp max --cost 436.51583224016565",
+	"script" : "/var/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "abed2",
+	"dataset" : "occupancy",
+	"dataset_md5" : "bc6cd9adaf496fe30bf0e417d2c3b0c6",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"L" : 509,
+		"algorithm" : "kcpa",
+		"alpha" : null,
+		"cost" : 436.5158,
+		"maxcp" : "max",
+		"minsize" : 30,
+		"runs" : 199,
+		"siglvl" : null
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			12,
+			52,
+			58,
+			91,
+			102,
+			142,
+			149,
+			181,
+			187,
+			241,
+			259,
+			268,
+			288,
+			341,
+			351,
+			416,
+			421,
+			440,
+			451,
+			456,
+			464,
+			506,
+			509
+		],
+		"runtime" : 80.09353
+	}
+} 

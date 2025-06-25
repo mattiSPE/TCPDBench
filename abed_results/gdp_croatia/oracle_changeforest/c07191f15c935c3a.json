@@ -1,0 +1,25 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/gdp_croatia.json --method random_forest --segmentation-type sbs --n-estimators 20 --max-depth 2 --feature_split 1",
+	"dataset": "gdp_croatia",
+	"dataset_md5": "4f902ba68bf710fa245e5eb0ab35fea7",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 2,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			8,
+			17
+		],
+		"runtime": 0.35214686393737793
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

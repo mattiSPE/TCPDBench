@@ -1,0 +1,53 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/businv.json --method random_forest --segmentation-type wbs --n-estimators 20 --max-depth 100 --feature_split all",
+	"dataset": "businv",
+	"dataset_md5": "d2ab178da17b2e659a10a102a4b9f332",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			8,
+			21,
+			33,
+			38,
+			44,
+			63,
+			68,
+			81,
+			92,
+			99,
+			119,
+			128,
+			146,
+			152,
+			165,
+			171,
+			176,
+			188,
+			195,
+			206,
+			225,
+			230,
+			236,
+			242,
+			248,
+			261,
+			272,
+			308,
+			320,
+			325
+		],
+		"runtime": 2.097160816192627
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

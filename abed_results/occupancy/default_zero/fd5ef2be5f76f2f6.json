@@ -1,0 +1,15 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py -i /var/home/markus/workspace/TCPDBench/datasets/occupancy.json",
+	"dataset": "occupancy",
+	"dataset_md5": "bc6cd9adaf496fe30bf0e417d2c3b0c6",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {},
+	"result": {
+		"cplocations": [],
+		"runtime": 7.152557373046875e-07
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_zero.py",
+	"script_md5": "95b65ddd5669b41385966a4aad387118",
+	"status": "SUCCESS"
+}

@@ -1,0 +1,44 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/co2_canada.json --method random_forest --segmentation-type wbs --n-estimators 20 --max-depth 100 --feature_split all",
+	"dataset": "co2_canada",
+	"dataset_md5": "de8d2cac911d2a8e3ce5addacbaed8e0",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "all",
+		"max_depth": 100,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "wbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			9,
+			15,
+			23,
+			29,
+			37,
+			46,
+			55,
+			63,
+			71,
+			80,
+			83,
+			87,
+			99,
+			107,
+			111,
+			142,
+			162,
+			168,
+			190,
+			196,
+			210
+		],
+		"runtime": 1.2513415813446045
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

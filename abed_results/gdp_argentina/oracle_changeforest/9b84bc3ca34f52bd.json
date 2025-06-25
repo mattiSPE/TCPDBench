@@ -1,0 +1,31 @@
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/home/markus/workspace/TCPDBench/datasets/gdp_argentina.json --method random_forest --segmentation-type sbs --n-estimators 20 --max-depth 8 --feature_split sqrt",
+	"dataset": "gdp_argentina",
+	"dataset_md5": "694212b5682ebd808d740ffd83d4bc16",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"feature_split": "sqrt",
+		"max_depth": 8,
+		"method": "random_forest",
+		"n_estimators": 20,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			5,
+			10,
+			14,
+			17,
+			33,
+			37,
+			46,
+			51
+		],
+		"runtime": 0.949897289276123
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}
