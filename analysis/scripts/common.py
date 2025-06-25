@@ -86,6 +86,7 @@ class Method(enum.Enum):
     binseg = "binseg"
     bocpd = "bocpd"
     bocpdms = "bocpdms"
+    changeforest = "changeforest"
     cpnp = "cpnp"
     ecp = "ecp"
     kcpa = "kcpa"
@@ -125,6 +126,7 @@ class Result:
 MULTIMETHODS = (
     Method.bocpd,
     Method.bocpdms,
+    Method.changeforest,
     Method.ecp,
     Method.kcpa,
     Method.rbocpdms,
