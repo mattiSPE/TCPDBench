@@ -82,20 +82,20 @@ class Experiment(enum.Enum):
 
 
 class Method(enum.Enum):
-    amoc = "amoc"
-    binseg = "binseg"
+    #amoc = "amoc"
+    #binseg = "binseg"
     bocpd = "bocpd"
     bocpdms = "bocpdms"
     changeforest = "changeforest"
-    cpnp = "cpnp"
+    #cpnp = "cpnp"
     ecp = "ecp"
     kcpa = "kcpa"
-    pelt = "pelt"
-    prophet = "prophet"
+    #pelt = "pelt"
+    #prophet = "prophet"
     rbocpdms = "rbocpdms"
-    rfpop = "rfpop"
-    segneigh = "segneigh"
-    wbs = "wbs"
+    #rfpop = "rfpop"
+    #segneigh = "segneigh"
+    #wbs = "wbs"
     zero = "zero"
 
 
@@ -154,7 +154,7 @@ MISSING_METHODS = (
     Method.bocpdms,
     Method.ecp,
     Method.kcpa,
-    Method.prophet,
+    #Method.prophet,
     Method.zero,
 )
 
