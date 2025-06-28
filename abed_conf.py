@@ -117,6 +117,8 @@ METHODS = [
     "oracle_bocpd",
     "oracle_bocpdms",
     "oracle_rbocpdms",
+    "oracle_pelt",
+    "oracle_binseg",
     "oracle_ecp",
     "oracle_kcpa", 
     "oracle_changeforest",
@@ -124,11 +126,29 @@ METHODS = [
     "default_bocpd", 
     "default_bocpdms",
     "default_rbocpdms", 
+    "default_pelt",
+    "default_binseg",
     "default_ecp", 
     "default_kcpa",
     "default_changeforest",
     "default_zero",
 ]
+
+R_changepoint_params = {
+    "function": ["mean", "var", "meanvar"],
+    "penalty": [
+        "None",
+        "SIC",
+        "BIC",
+        "MBIC",
+        "AIC",
+        "Hannan-Quinn",
+        "Asymptotic",
+    ],
+    "statistic": ["Normal", "CUSUM", "CSS", "Gamma", "Exponential", "Poisson"],
+}
+R_changepoint_params_seg = copy.deepcopy(R_changepoint_params)
+R_changepoint_params_seg["Q"] = ["max", "default"]
 
 bocpd_intensities = [10, 50, 100, 200]
 bocpd_prior_a = [0.01, 0.1, 1.0, 10, 100]
@@ -136,6 +156,59 @@ bocpd_prior_b = [0.01, 0.1, 1.0, 10, 100]
 bocpd_prior_k = [0.01, 0.1, 1.0, 10, 100]
 
 cpt_manual_penalty = list(np.logspace(-3, 3, 101))
+cpt_penalties = [
+    "None",
+    "SIC",
+    "BIC",
+    "MBIC",
+    "AIC",
+    "Hannan-Quinn",
+    "Asymptotic",
+]
+cpt_Q = ["default", "max"]
+cpt_function = ["mean", "var", "meanvar"]
+cpt_statistic = {
+    "mean": ["Normal", "CUSUM"],
+    "var": ["Normal", "CSS"],
+    "meanvar": ["Normal", "Gamma", "Exponential", "Poisson"],
+}
+cptnp_penalties = [p for p in cpt_penalties if not p == "Asymptotic"]
+cptnp_quantiles = [10, 20, 30, 40]
+
+pelt_params = [
+    {"function": f, "penalty": p, "penvalue": "NULL", "statistic": s}
+    for f in cpt_function
+    for p in cpt_penalties
+    for s in cpt_statistic[f]
+] + [
+    {"function": f, "penalty": "Manual", "penvalue": pv, "statistic": s}
+    for f in cpt_function
+    for pv in cpt_manual_penalty
+    for s in cpt_statistic[f]
+]
+amoc_params = copy.deepcopy(pelt_params)
+
+segneigh_params = [
+    {"function": f, "penalty": p, "penvalue": "NULL", "statistic": s, "Q": q}
+    for f in cpt_function
+    for p in cpt_penalties
+    for s in cpt_statistic[f]
+    for q in cpt_Q
+] + [
+    {
+        "function": f,
+        "penalty": "Manual",
+        "penvalue": pv,
+        "statistic": s,
+        "Q": q,
+    }
+    for f in cpt_function
+    for pv in cpt_manual_penalty
+    for s in cpt_statistic[f]
+    for q in cpt_Q
+]
+binseg_params = copy.deepcopy(segneigh_params)
+
 
 
 PARAMS = {
@@ -173,6 +246,8 @@ PARAMS = {
         for a in bocpd_prior_a
         for b in bocpd_prior_b
     ],
+    "oracle_pelt": pelt_params,
+    "oracle_binseg": binseg_params,
     "oracle_ecp": [
         {"algorithm": a, "siglvl": s, "minsize": m, "alpha": v}
         for a in ["e.agglo", "e.divisive"]
@@ -198,6 +273,8 @@ PARAMS = {
     "default_bocpd": [{"no_param": 0}],
     "default_bocpdms": [{"no_param": 0}],
     "default_rbocpdms": [{"no_param": 0}],
+    "default_pelt": [{"no_param": 0}],
+    "default_binseg": [{"no_param": 0}],
     "default_ecp": [{"no_param": 0}],
     "default_kcpa": [{"no_param": 0}],
     "default_changeforest": [{"no_param": 0}],
@@ -205,6 +282,12 @@ PARAMS = {
 }
 
 COMMANDS = {
+    "oracle_binseg": (
+        "Rscript --no-save --slave "
+        "{execdir}/R/cpdbench_changepoint.R -i {datadir}/{dataset}.json "
+        "-p {penalty} -f {function} -t {statistic} -m BinSeg -Q {Q} "
+        "--pen.value {penvalue}"
+    ),
     "oracle_ecp": (
         "Rscript --no-save --slave "
         "{execdir}/R/cpdbench_ecp.R -i {datadir}/{dataset}.json "
@@ -214,6 +297,12 @@ COMMANDS = {
         "Rscript --no-save --slave "
         "{execdir}/R/cpdbench_ecp.R -i {datadir}/{dataset}.json -a kcpa "
         "--maxcp {maxcp} --cost {cost}"
+    ),
+    "oracle_pelt": (
+        "Rscript --no-save --slave "
+        "{execdir}/R/cpdbench_changepoint.R -i {datadir}/{dataset}.json "
+        "-p {penalty} -f {function} -t {statistic} -m PELT "
+        "--pen.value {penvalue}"
     ),
     "oracle_bocpd": (
         "Rscript --no-save --slave "
