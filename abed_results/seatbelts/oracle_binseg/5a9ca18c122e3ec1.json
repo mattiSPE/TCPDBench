@@ -1,0 +1,48 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/seatbelts.json -p Manual -f var -t Normal -m BinSeg -Q max --pen.value 1.0",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "seatbelts",
+	"dataset_md5" : "976ef4318e7b6381ff37dd4ac8029718",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 97,
+		"func" : "var",
+		"max_cp" : "max",
+		"method" : "BinSeg",
+		"pen.value" : 1,
+		"penalty" : "Manual",
+		"test_statistic" : "Normal"
+	},
+	"result" : {
+		"cplocations" : [
+			6,
+			9,
+			11,
+			20,
+			23,
+			32,
+			36,
+			39,
+			45,
+			48,
+			55,
+			59,
+			66,
+			71,
+			78,
+			81,
+			135,
+			162,
+			165,
+			168,
+			175,
+			179,
+			188,
+			191
+		],
+		"runtime" : 0.004568577
+	}
+} 

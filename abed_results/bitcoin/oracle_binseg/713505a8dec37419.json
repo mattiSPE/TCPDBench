@@ -1,0 +1,30 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/bitcoin.json -p Manual -f var -t Normal -m BinSeg -Q default --pen.value 0.003019951720402016",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "bitcoin",
+	"dataset_md5" : "f90ff14ed1fc0c3d47d4394d25cbce93",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 5,
+		"func" : "var",
+		"max_cp" : "default",
+		"method" : "BinSeg",
+		"pen.value" : 0.003019952,
+		"penalty" : "Manual",
+		"test_statistic" : "Normal"
+	},
+	"result" : {
+		"cplocations" : [
+			469,
+			518,
+			547,
+			568,
+			642,
+			773
+		],
+		"runtime" : 0.002753973
+	}
+} 

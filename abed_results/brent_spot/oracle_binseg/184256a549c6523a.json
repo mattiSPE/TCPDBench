@@ -1,0 +1,23 @@
+{
+	"error" : "Poisson test statistic requires positive data",
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/brent_spot.json -p Manual -f meanvar -t Poisson -m BinSeg -Q default --pen.value 0.501187233627272",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "brent_spot",
+	"dataset_md5" : "79892116ef8a0aa16e2450123655b31d",
+	"status" : "FAIL",
+	"parameters" : {
+		"Q" : 5,
+		"func" : "meanvar",
+		"max_cp" : "default",
+		"method" : "BinSeg",
+		"pen.value" : 0.5011872,
+		"penalty" : "Manual",
+		"test_statistic" : "Poisson"
+	},
+	"result" : {
+		"cplocations" : null,
+		"runtime" : null
+	}
+} 

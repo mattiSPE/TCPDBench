@@ -1,0 +1,25 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/quality_control_2.json -p Manual -f mean -t CUSUM -m BinSeg -Q max --pen.value 36.3078054770101",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "quality_control_2",
+	"dataset_md5" : "919a55440bd00d635db80fe83e921c7d",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 142.5,
+		"func" : "mean",
+		"max_cp" : "max",
+		"method" : "BinSeg",
+		"pen.value" : 36.30781,
+		"penalty" : "Manual",
+		"test_statistic" : "CUSUM"
+	},
+	"result" : {
+		"cplocations" : [
+			282
+		],
+		"runtime" : 0.2736766
+	}
+} 

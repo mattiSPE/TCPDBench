@@ -1,0 +1,30 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/us_population.json -p Manual -f meanvar -t Normal -m BinSeg -Q default --pen.value 1.513561248436207",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "us_population",
+	"dataset_md5" : "77037fc5ff0338516a56ae686aa4dcba",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 5,
+		"func" : "meanvar",
+		"max_cp" : "default",
+		"method" : "BinSeg",
+		"pen.value" : 1.513561,
+		"penalty" : "Manual",
+		"test_statistic" : "Normal"
+	},
+	"result" : {
+		"cplocations" : [
+			116,
+			235,
+			342,
+			482,
+			655,
+			815
+		],
+		"runtime" : 0.005295753
+	}
+} 

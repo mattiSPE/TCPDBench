@@ -1,0 +1,23 @@
+{
+	"error" : "missing value where TRUE/FALSE needed",
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/gdp_japan.json -p Asymptotic -f mean -t CUSUM -m BinSeg -Q default --pen.value NULL",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "gdp_japan",
+	"dataset_md5" : "17026e80ab363d9f668d69900824d9ae",
+	"status" : "FAIL",
+	"parameters" : {
+		"Q" : 5,
+		"pen.value" : null,
+		"func" : "mean",
+		"max_cp" : "default",
+		"method" : "BinSeg",
+		"penalty" : "Asymptotic",
+		"test_statistic" : "CUSUM"
+	},
+	"result" : {
+		"cplocations" : null,
+		"runtime" : null
+	}
+} 

@@ -1,0 +1,44 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/shanghai_license.json -p Manual -f var -t Normal -m BinSeg -Q max --pen.value 0.09549925860214359",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "shanghai_license",
+	"dataset_md5" : "b4ac173eb6c0a1a4d10268abc109eda1",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 103.5,
+		"func" : "var",
+		"max_cp" : "max",
+		"method" : "BinSeg",
+		"pen.value" : 0.09549926,
+		"penalty" : "Manual",
+		"test_statistic" : "Normal"
+	},
+	"result" : {
+		"cplocations" : [
+			11,
+			73,
+			76,
+			107,
+			139,
+			141,
+			144,
+			147,
+			152,
+			156,
+			158,
+			166,
+			168,
+			171,
+			175,
+			180,
+			189,
+			194,
+			200,
+			204
+		],
+		"runtime" : 0.003165245
+	}
+} 

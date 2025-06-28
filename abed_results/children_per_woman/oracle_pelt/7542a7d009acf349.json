@@ -1,0 +1,45 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/children_per_woman.json -p Manual -f var -t Normal -m PELT --pen.value 0.16595869074375597",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "children_per_woman",
+	"dataset_md5" : "826e0a2328b8a8a085050115768eef98",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"func" : "var",
+		"max_cp" : "max",
+		"method" : "PELT",
+		"pen.value" : 0.1659587,
+		"penalty" : "Manual",
+		"test_statistic" : "Normal"
+	},
+	"result" : {
+		"cplocations" : [
+			77,
+			103,
+			114,
+			131,
+			141,
+			145,
+			151,
+			158,
+			161,
+			166,
+			170,
+			172,
+			174,
+			176,
+			179,
+			186,
+			190,
+			195,
+			208,
+			226,
+			253,
+			300
+		],
+		"runtime" : 0.002426863
+	}
+} 

@@ -1,0 +1,23 @@
+{
+	"error" : "This method has no support for multidimensional data.",
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/apple.json -p Manual -f var -t CSS -m BinSeg -Q max --pen.value 0.023988329190194897",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "apple",
+	"dataset_md5" : "22edb48471bd3711f7a6e15de6413643",
+	"status" : "SKIP",
+	"parameters" : {
+		"Q" : 312,
+		"func" : "var",
+		"max_cp" : "max",
+		"method" : "BinSeg",
+		"pen.value" : 0.02398833,
+		"penalty" : "Manual",
+		"test_statistic" : "CSS"
+	},
+	"result" : {
+		"cplocations" : null,
+		"runtime" : null
+	}
+} 

@@ -1,0 +1,26 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/gdp_japan.json -p Manual -f var -t CSS -m BinSeg -Q max --pen.value 1.3182567385564075",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "gdp_japan",
+	"dataset_md5" : "17026e80ab363d9f668d69900824d9ae",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 30,
+		"func" : "var",
+		"max_cp" : "max",
+		"method" : "BinSeg",
+		"pen.value" : 1.318257,
+		"penalty" : "Manual",
+		"test_statistic" : "CSS"
+	},
+	"result" : {
+		"cplocations" : [
+			14,
+			57
+		],
+		"runtime" : 0.009226084
+	}
+} 

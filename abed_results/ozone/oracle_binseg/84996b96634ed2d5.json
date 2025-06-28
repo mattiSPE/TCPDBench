@@ -1,0 +1,23 @@
+{
+	"error" : "Exponential test statistic requires positive data",
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/ozone.json -p Manual -f meanvar -t Exponential -m BinSeg -Q default --pen.value 5.248074602497723",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "ozone",
+	"dataset_md5" : "348b1f85c3ec3da3b8989afe04c33b80",
+	"status" : "FAIL",
+	"parameters" : {
+		"Q" : 5,
+		"func" : "meanvar",
+		"max_cp" : "default",
+		"method" : "BinSeg",
+		"pen.value" : 5.248075,
+		"penalty" : "Manual",
+		"test_statistic" : "Exponential"
+	},
+	"result" : {
+		"cplocations" : null,
+		"runtime" : null
+	}
+} 

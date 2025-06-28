@@ -1,0 +1,25 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/centralia.json -p Manual -f mean -t Normal -m BinSeg -Q max --pen.value 251.18864315095772",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "centralia",
+	"dataset_md5" : "addb9b70ac1294eba6da958f3ab26595",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"Q" : 8.5,
+		"func" : "mean",
+		"max_cp" : "max",
+		"method" : "BinSeg",
+		"pen.value" : 251.1886,
+		"penalty" : "Manual",
+		"test_statistic" : "Normal"
+	},
+	"result" : {
+		"cplocations" : [
+			14
+		],
+		"runtime" : 0.002465487
+	}
+} 

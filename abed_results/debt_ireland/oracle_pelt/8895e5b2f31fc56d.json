@@ -1,0 +1,22 @@
+{
+	"error" : "Exponential test statistic requires positive data",
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/debt_ireland.json -p Manual -f meanvar -t Exponential -m PELT --pen.value 10.471285480508985",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_changepoint.R",
+	"script_md5" : "6175ed267f515e2958637075675272db",
+	"hostname" : "abed3",
+	"dataset" : "debt_ireland",
+	"dataset_md5" : "a5a9e752c338d2ffcceb614bb2064cc9",
+	"status" : "FAIL",
+	"parameters" : {
+		"func" : "meanvar",
+		"max_cp" : "max",
+		"method" : "PELT",
+		"pen.value" : 10.47129,
+		"penalty" : "Manual",
+		"test_statistic" : "Exponential"
+	},
+	"result" : {
+		"cplocations" : null,
+		"runtime" : null
+	}
+} 
