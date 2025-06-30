@@ -1,12 +1,3 @@
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
-Alert! Calc is nan
 {
 	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /var/home/markus/workspace/TCPDBench/datasets/uk_coal_employ.json --intensity 10 --prior-a 10 --prior-b 10 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --use-timeout",
 	"dataset": "uk_coal_employ",
