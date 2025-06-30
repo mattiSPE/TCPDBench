@@ -83,14 +83,14 @@ class Experiment(enum.Enum):
 
 class Method(enum.Enum):
     #amoc = "amoc"
-    #binseg = "binseg"
+    binseg = "binseg"
     bocpd = "bocpd"
     bocpdms = "bocpdms"
     changeforest = "changeforest"
     #cpnp = "cpnp"
     ecp = "ecp"
     kcpa = "kcpa"
-    #pelt = "pelt"
+    pelt = "pelt"
     #prophet = "prophet"
     rbocpdms = "rbocpdms"
     #rfpop = "rfpop"

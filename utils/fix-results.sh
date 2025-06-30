@@ -20,7 +20,7 @@ find "$TARGET_DIR" -type f -name "*.json" | while read -r file; do
   echo "Invalid JSON: $file – trying to fix..."
 
   # Relativer Pfad zur Datei vom Wurzelverzeichnis aus
-  rel_path="${file#$TARGET_DIR/}"
+  rel_path="${file#$TARGET_DIR}"
 
   # Zielpfad für Backup
   backup_path="$BACKUP_ROOT/$rel_path.backup"

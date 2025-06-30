@@ -1,0 +1,20 @@
+%% This table requires booktabs!
+\begin{tabular}{lrrcrrcrrcrr}
+\toprule
+ & \multicolumn{5}{c}{Default} &  & \multicolumn{5}{c}{Oracle} \\
+\cmidrule(lr){2-6} \cmidrule(lr){8-12}
+ & \multicolumn{2}{c}{Univariate} &  & \multicolumn{2}{c}{Multivariate} &  & \multicolumn{2}{c}{Univariate} &  & \multicolumn{2}{c}{Multivariate} \\
+\cmidrule(lr){2-3} \cmidrule(lr){5-6} \cmidrule(lr){8-9} \cmidrule(lr){11-12}
+ & Cover & F1 & & Cover & F1 & & Cover & F1 & & Cover & F1\\
+\midrule
+\textsc{binseg}       & \textbf{0.672} & \textbf{0.698} &  &                &                &  & \textbf{0.774} & \textbf{0.873} &  &                &                \\
+\textsc{bocpd}        & \textbf{0.594} & \textbf{0.662} &  & \textbf{0.455} & \textbf{0.610} &  & \textbf{0.783} & \textbf{0.886} &  & \textbf{0.801} & \textbf{0.941} \\
+\textsc{bocpdms}      & \textbf{0.590} & 0.495          &  & \textbf{0.512} & \textbf{0.426} &  & 0.753          & 0.659          &  & \textbf{0.689} & \textbf{0.654} \\
+\textsc{changeforest} & 0.481          & 0.511          &  & \textbf{0.151} & \textbf{0.284} &  & 0.556          & 0.640          &  & 0.193          & 0.330          \\
+\textsc{ecp}          & 0.471          & 0.565          &  & \textbf{0.407} & \textbf{0.531} &  & 0.701          & 0.778          &  & \textbf{0.590} & \textbf{0.725} \\
+\textsc{kcpa}         & 0.069          & 0.124          &  & 0.047          & 0.070          &  & 0.609          & 0.685          &  & \textbf{0.658} & \textbf{0.778} \\
+\textsc{pelt}         & \textbf{0.652} & \textbf{0.674} &  &                &                &  & \textbf{0.772} & \textbf{0.864} &  &                &                \\
+\textsc{rbocpdms}     & 0.532          & 0.382          &  & \textbf{0.410} & \textbf{0.327} &  & 0.433          & 0.438          &  & 0.000          & 0.000          \\
+\textsc{zero}         & \textbf{0.566} & 0.645          &  & \textbf{0.464} & \textbf{0.577} &  & 0.566          & 0.645          &  & \textbf{0.464} & \textbf{0.577} \\
+\bottomrule
+\end{tabular}
