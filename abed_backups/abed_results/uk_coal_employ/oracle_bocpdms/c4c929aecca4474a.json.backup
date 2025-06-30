@@ -1,0 +1,65 @@
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+Alert! Calc is nan
+{
+	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py -i /var/home/markus/workspace/TCPDBench/datasets/uk_coal_employ.json --intensity 100 --prior-a 0.1 --prior-b 10 --threshold 100 --use-timeout",
+	"dataset": "uk_coal_employ",
+	"dataset_md5": "a7c72746e46d6e09f516bd87e0e68bef",
+	"error": null,
+	"hostname": "abed2",
+	"parameters": {
+		"S1": 1,
+		"S2": 1,
+		"intensity": 100.0,
+		"intercept_grouping": null,
+		"lower_AR": 1,
+		"prior_a": 0.1,
+		"prior_b": 10.0,
+		"prior_mean_scale": 0,
+		"prior_var_scale": 1,
+		"threshold": 100,
+		"upper_AR": 3,
+		"use_timeout": true
+	},
+	"result": {
+		"cplocations": [
+			2,
+			3,
+			15
+		],
+		"runtime": 10.794261693954468
+	},
+	"script": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
+	"status": "SUCCESS"
+}
