@@ -221,13 +221,12 @@ def pairwise_difference_report(avg_ranks, n_datasets, alpha=0.05):
 
     return CD, txt
 
-
 def reference_difference(
     avg_ranks: Dict[Method, float],
     n_datasets: int,
     significance_level: float = 0.05,
 ) -> Tuple[Method, Dict[Method, Dict[str, Any]], float]:
-    """Run Holm's procedure agains the method with the lowest rank"""
+    """Run Holm's procedure against the method with the lowest rank."""
     N = n_datasets
     k = len(avg_ranks)
 
@@ -259,15 +258,30 @@ def reference_difference(
     significantly_different = [None] * (k - 1)
     thresholds = [None] * (k - 1)
     cd_threshold = None
+
+    print(f"[DEBUG] Starting Holm loop with {k - 1} comparisons")
+    print(f"[DEBUG] Sorted p-values: {[f'{p:.5f}' for p, _ in sorted_p_values]}")
+
     for i in range(k - 1):
         threshold = significance_level / float(k - (i + 1))
         pvalue, index = sorted_p_values[i]
+
+        print(f"[DEBUG] i={i}, method={others[index].name}, pvalue={pvalue:.5f}, threshold={threshold:.5f}")
+
         significantly_different[index] = pvalue < threshold
         thresholds[index] = threshold
         if pvalue > threshold and cd_threshold is None:
+            print(f"[DEBUG] cd_threshold set to {threshold:.5f} at i={i}")
             cd_threshold = threshold
 
-    critical_difference = -1 * stats.norm.ppf(cd_threshold) / constant
+    # ✅ Minimal fix to prevent crash
+    if cd_threshold is None:   
+        print("[DEBUG] cd_threshold was never set. All methods significantly worse than reference.")
+        #critical_difference = 0.0 
+        critical_difference = None  
+    else:
+        print(f"[DEBUG] Final cd_threshold = {cd_threshold:.5f}")
+        critical_difference = -1 * stats.norm.ppf(cd_threshold) / constant
 
     # Collect results
     output = {}
@@ -281,7 +295,10 @@ def reference_difference(
             significantly_different=significantly_different[j],
         )
         output[method] = out
+
     return reference_method, output, critical_difference
+
+
 
 
 def reference_difference_report(

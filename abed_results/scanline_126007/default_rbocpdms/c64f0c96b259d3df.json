@@ -1,10 +1,3 @@
-We have a nan increment at position (array([], dtype=int64),)
-We have a nan increment at position (array([], dtype=int64),)
-We have a nan increment at position (array([], dtype=int64),)
-We have a nan increment at position (array([], dtype=int64),)
-We have a nan increment at position (array([], dtype=int64),)
-We have a nan increment at position (array([], dtype=int64),)
-We have a nan increment at position (array([], dtype=int64),)
 {
 	"command": "/var/home/markus/workspace/TCPDBench/execs/python/cpdbench_rbocpdms.py -i /var/home/markus/workspace/TCPDBench/datasets/scanline_126007.json --intensity 100 --prior-a 1.0 --prior-b 1.0 --threshold 100 --alpha-param 0.5 --alpha-rld 0.5 --timeout 240",
 	"dataset": "scanline_126007",

@@ -51,6 +51,7 @@ def build_latex_doc(tex, output_name=None, silent=True):
 
         pdfname = os.path.join(tmpdirname, basename + ".pdf")
         if output_name:
+            print(f"[DEBUG] PDFNAME: {pdfname}\tOUTPU_NAME: {output_name}")
             shutil.copy2(pdfname, output_name)
 
 
