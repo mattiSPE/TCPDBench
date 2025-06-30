@@ -83,6 +83,7 @@ DATASETS = [
     "gdp_croatia",
     "gdp_iran",
     "gdp_japan",
+    "glass",
     "global_co2",
     "homeruns",
     "iceland_tourism",

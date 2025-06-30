@@ -42,6 +42,7 @@ class Dataset(enum.Enum):
     gdp_croatia = "gdp_croatia"
     gdp_iran = "gdp_iran"
     gdp_japan = "gdp_japan"
+    glass = "glass"
     global_co2 = "global_co2"
     homeruns = "homeruns"
     iceland_tourism = "iceland_tourism"
@@ -139,6 +140,7 @@ MULTIDATASETS = (
     Dataset.bee_waggle_6,
     Dataset.occupancy,
     Dataset.run_log,
+    Dataset.glass,
 )
 UNIDATASETS = tuple(d for d in list(Dataset) if not d in MULTIDATASETS)
 QC_DATASETS = (
