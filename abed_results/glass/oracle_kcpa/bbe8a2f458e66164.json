@@ -1,0 +1,33 @@
+{
+	"error" : null,
+	"command" : "/usr/lib/R/bin/exec/R --no-echo --no-restore --no-save --slave --file=/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R --args -i /var/local/home/markus/workspace/TCPDBench/datasets/glass.json -a kcpa --maxcp max --cost 41.68693834703355",
+	"script" : "/var/local/home/markus/workspace/TCPDBench/execs/R/cpdbench_ecp.R",
+	"script_md5" : "1b71ad311b8354aa3d1594488eb7dea2",
+	"hostname" : "abed3",
+	"dataset" : "glass",
+	"dataset_md5" : "bb237bcbfe2685e384fc8d2ea4d787cf",
+	"status" : "SUCCESS",
+	"parameters" : {
+		"L" : 214,
+		"algorithm" : "kcpa",
+		"alpha" : null,
+		"cost" : 41.68694,
+		"maxcp" : "max",
+		"minsize" : 30,
+		"runs" : 199,
+		"siglvl" : null
+	},
+	"result" : {
+		"cplocations" : [
+			0,
+			61,
+			72,
+			103,
+			113,
+			162,
+			190,
+			214
+		],
+		"runtime" : 5.703742
+	}
+} 

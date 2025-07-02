@@ -117,7 +117,7 @@ DATASET_NAMES = {k: k for k in DATASETS}
 METHODS = [ 
     "oracle_bocpd",
     "oracle_bocpdms",
-    "oracle_rbocpdms",
+#    "oracle_rbocpdms",
     "oracle_pelt",
     "oracle_binseg",
     "oracle_ecp",
@@ -126,7 +126,7 @@ METHODS = [
     "oracle_zero",
     "default_bocpd", 
     "default_bocpdms",
-    "default_rbocpdms", 
+#    "default_rbocpdms", 
     "default_pelt",
     "default_binseg",
     "default_ecp", 

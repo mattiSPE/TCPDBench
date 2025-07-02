@@ -1,0 +1,33 @@
+{
+	"command": "/var/local/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py -i /var/local/home/markus/workspace/TCPDBench/datasets/glass.json --intensity 10 --prior-a 100 --prior-b 0.1 --threshold 100 --use-timeout",
+	"dataset": "glass",
+	"dataset_md5": "bb237bcbfe2685e384fc8d2ea4d787cf",
+	"error": null,
+	"hostname": "abed3",
+	"parameters": {
+		"S1": 9,
+		"S2": 1,
+		"intensity": 10.0,
+		"intercept_grouping": null,
+		"lower_AR": 1,
+		"prior_a": 100.0,
+		"prior_b": 0.1,
+		"prior_mean_scale": 0,
+		"prior_var_scale": 1,
+		"threshold": 100,
+		"upper_AR": 3,
+		"use_timeout": true
+	},
+	"result": {
+		"cplocations": [
+			0,
+			59,
+			113,
+			137
+		],
+		"runtime": 348.0917384624481
+	},
+	"script": "/var/local/home/markus/workspace/TCPDBench/execs/python/cpdbench_bocpdms.py",
+	"script_md5": "c1be8d2c933f41a6d0396d86002c6f6f",
+	"status": "SUCCESS"
+}

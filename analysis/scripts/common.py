@@ -93,7 +93,7 @@ class Method(enum.Enum):
     kcpa = "kcpa"
     pelt = "pelt"
     #prophet = "prophet"
-    rbocpdms = "rbocpdms"
+    #rbocpdms = "rbocpdms"
     #rfpop = "rfpop"
     #segneigh = "segneigh"
     #wbs = "wbs"
@@ -130,7 +130,7 @@ MULTIMETHODS = (
     Method.changeforest,
     Method.ecp,
     Method.kcpa,
-    Method.rbocpdms,
+    #Method.rbocpdms,
     Method.zero,
 )
 

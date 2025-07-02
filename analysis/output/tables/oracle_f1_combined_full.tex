@@ -1,49 +1,50 @@
-\begin{tabular}{lccccccccc}
-Dataset & \textsc{binseg} & \textsc{bocpd} & \textsc{bocpdms} & \textsc{changeforest} & \textsc{ecp} & \textsc{kcpa} & \textsc{pelt} & \textsc{rbocpdms} & \textsc{zero}\\
+\begin{tabular}{lcccccccc}
+Dataset & \textsc{binseg} & \textsc{bocpd} & \textsc{bocpdms} & \textsc{changeforest} & \textsc{ecp} & \textsc{kcpa} & \textsc{pelt} & \textsc{zero}\\
 \toprule
-\verb+bank+ & \textbf{1.000} & \textbf{1.000} & 0.500 & 0.037 & 0.250 & 0.333 & \textbf{1.000} & F/T & \textbf{1.000}\\
-\verb+bitcoin+ & 0.780 & 0.733 & 0.533 & 0.366 & 0.648 & 0.629 & \textbf{0.783} & F/T & 0.450\\
-\verb+brent_spot+ & \textbf{0.670} & 0.631 & 0.309 & 0.503 & 0.641 & 0.544 & 0.641 & F/T & 0.315\\
-\verb+businv+ & 0.588 & \textbf{0.650} & 0.455 & 0.255 & 0.370 & 0.294 & 0.588 & F/T & 0.588\\
-\verb+centralia+ & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.938 & 0.909 & \textbf{1.000} & \textbf{1.000} & 0.974 & 0.763\\
-\verb+children_per_woman+ & 0.678 & 0.787 & \textbf{0.826} & 0.312 & 0.551 & 0.525 & 0.778 & F/T & 0.507\\
-\verb+co2_canada+ & 0.893 & \textbf{0.924} & 0.479 & 0.574 & 0.875 & 0.867 & 0.894 & 0.557 & 0.361\\
-\verb+construction+ & \textbf{0.709} & \textbf{0.709} & 0.516 & 0.491 & \textbf{0.709} & 0.634 & \textbf{0.709} & 0.134 & 0.696\\
-\verb+debt_ireland+ & \textbf{1.000} & \textbf{1.000} & 0.892 & 0.958 & 0.980 & \textbf{1.000} & \textbf{1.000} & 0.958 & 0.469\\
-\verb+gdp_argentina+ & \textbf{0.947} & \textbf{0.947} & 0.583 & 0.800 & 0.889 & 0.800 & \textbf{0.947} & 0.818 & 0.824\\
-\verb+gdp_croatia+ & 0.824 & \textbf{1.000} & 0.583 & 0.800 & 0.824 & 0.800 & 0.824 & 0.824 & 0.824\\
-\verb+gdp_iran+ & 0.696 & 0.862 & 0.838 & 0.576 & 0.824 & 0.734 & 0.808 & \textbf{0.899} & 0.652\\
-\verb+gdp_japan+ & \textbf{1.000} & \textbf{1.000} & 0.615 & 0.444 & \textbf{1.000} & 0.500 & \textbf{1.000} & \textbf{1.000} & 0.889\\
-\verb+global_co2+ & 0.929 & 0.929 & 0.458 & 0.500 & \textbf{0.929} & 0.750 & 0.929 & 0.634 & 0.846\\
-\verb+homeruns+ & \textbf{0.889} & 0.829 & 0.675 & 0.854 & 0.829 & 0.829 & 0.873 & 0.879 & 0.659\\
-\verb+iceland_tourism+ & 0.947 & 0.947 & 0.486 & 0.643 & \textbf{1.000} & 0.486 & 0.947 & 0.486 & 0.947\\
-\verb+jfk_passengers+ & 0.776 & 0.776 & 0.650 & \textbf{0.862} & 0.651 & 0.651 & 0.776 & F/T & 0.723\\
-\verb+lga_passengers+ & 0.620 & 0.715 & 0.563 & 0.629 & \textbf{0.892} & 0.598 & 0.602 & F/T & 0.535\\
-\verb+measles+ & \textbf{0.947} & \textbf{0.947} & 0.486 & \textbf{0.947} & 0.103 & 0.281 & \textbf{0.947} & F/T & \textbf{0.947}\\
-\verb+nile+ & \textbf{1.000} & \textbf{1.000} & 0.800 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.667 & 0.824\\
-\verb+ozone+ & \textbf{1.000} & 0.966 & 0.778 & 0.723 & \textbf{1.000} & 0.667 & \textbf{1.000} & \textbf{1.000} & 0.723\\
-\verb+rail_lines+ & \textbf{0.966} & \textbf{0.966} & 0.889 & 0.846 & \textbf{0.966} & 0.800 & 0.846 & 0.730 & 0.537\\
-\verb+ratner_stock+ & 0.832 & \textbf{0.929} & 0.559 & 0.350 & 0.776 & 0.754 & 0.824 & F/T & 0.571\\
-\verb+robocalls+ & \textbf{0.966} & \textbf{0.966} & 0.750 & \textbf{0.966} & \textbf{0.966} & \textbf{0.966} & \textbf{0.966} & 0.742 & 0.636\\
-\verb+scanline_126007+ & 0.920 & \textbf{0.964} & 0.837 & 0.796 & 0.870 & 0.838 & 0.889 & F/T & 0.644\\
-\verb+scanline_42049+ & 0.931 & \textbf{0.962} & 0.921 & 0.471 & 0.910 & 0.908 & 0.910 & F/T & 0.276\\
-\verb+seatbelts+ & \textbf{0.838} & 0.683 & 0.583 & 0.824 & 0.683 & 0.683 & 0.683 & 0.452 & 0.621\\
-\verb+shanghai_license+ & \textbf{0.966} & 0.868 & 0.651 & 0.727 & 0.868 & 0.465 & \textbf{0.966} & 0.778 & 0.636\\
-\verb+uk_coal_employ+ & M & M & 0.617 & \textbf{0.818} & 0.513 & 0.513 & M & M & 0.513\\
-\verb+unemployment_nl+ & \textbf{0.889} & 0.876 & 0.797 & 0.705 & 0.790 & 0.744 & 0.816 & 0.594 & 0.566\\
-\verb+us_population+ & \textbf{1.000} & \textbf{1.000} & 0.615 & 0.061 & 0.471 & 0.276 & \textbf{1.000} & F/T & 0.889\\
-\verb+usd_isk+ & 0.785 & 0.876 & 0.678 & 0.553 & 0.785 & 0.601 & 0.785 & \textbf{0.881} & 0.489\\
-\verb+well_log+ & 0.944 & 0.908 & 0.796 & \textbf{0.963} & 0.928 & 0.950 & 0.912 & F/T & 0.237\\
+\verb+bank+ & \textbf{1.000} & \textbf{1.000} & 0.500 & 0.037 & 0.250 & 0.333 & \textbf{1.000} & \textbf{1.000}\\
+\verb+bitcoin+ & 0.780 & 0.733 & 0.533 & 0.366 & 0.648 & 0.629 & \textbf{0.783} & 0.450\\
+\verb+brent_spot+ & \textbf{0.670} & 0.631 & 0.309 & 0.503 & 0.641 & 0.544 & 0.641 & 0.315\\
+\verb+businv+ & 0.588 & \textbf{0.650} & 0.455 & 0.255 & 0.370 & 0.294 & 0.588 & 0.588\\
+\verb+centralia+ & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.938 & 0.909 & \textbf{1.000} & \textbf{1.000} & 0.763\\
+\verb+children_per_woman+ & 0.678 & 0.787 & \textbf{0.826} & 0.312 & 0.551 & 0.525 & 0.778 & 0.507\\
+\verb+co2_canada+ & 0.893 & \textbf{0.924} & 0.479 & 0.574 & 0.875 & 0.867 & 0.894 & 0.361\\
+\verb+construction+ & \textbf{0.709} & \textbf{0.709} & 0.516 & 0.491 & \textbf{0.709} & 0.634 & \textbf{0.709} & 0.696\\
+\verb+debt_ireland+ & \textbf{1.000} & \textbf{1.000} & 0.892 & 0.958 & 0.980 & \textbf{1.000} & \textbf{1.000} & 0.469\\
+\verb+gdp_argentina+ & \textbf{0.947} & \textbf{0.947} & 0.583 & 0.800 & 0.889 & 0.800 & \textbf{0.947} & 0.824\\
+\verb+gdp_croatia+ & 0.824 & \textbf{1.000} & 0.583 & 0.800 & 0.824 & 0.800 & 0.824 & 0.824\\
+\verb+gdp_iran+ & 0.696 & \textbf{0.862} & 0.838 & 0.576 & 0.824 & 0.734 & 0.808 & 0.652\\
+\verb+gdp_japan+ & \textbf{1.000} & \textbf{1.000} & 0.615 & 0.444 & \textbf{1.000} & 0.500 & \textbf{1.000} & 0.889\\
+\verb+global_co2+ & 0.929 & 0.929 & 0.458 & 0.500 & \textbf{0.929} & 0.750 & 0.929 & 0.846\\
+\verb+homeruns+ & \textbf{0.889} & 0.829 & 0.675 & 0.854 & 0.829 & 0.829 & 0.873 & 0.659\\
+\verb+iceland_tourism+ & 0.947 & 0.947 & 0.486 & 0.643 & \textbf{1.000} & 0.486 & 0.947 & 0.947\\
+\verb+jfk_passengers+ & 0.776 & 0.776 & 0.650 & \textbf{0.862} & 0.651 & 0.651 & 0.776 & 0.723\\
+\verb+lga_passengers+ & 0.620 & 0.715 & 0.563 & 0.629 & \textbf{0.892} & 0.598 & 0.602 & 0.535\\
+\verb+measles+ & \textbf{0.947} & \textbf{0.947} & 0.486 & \textbf{0.947} & 0.103 & 0.281 & \textbf{0.947} & \textbf{0.947}\\
+\verb+nile+ & \textbf{1.000} & \textbf{1.000} & 0.800 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.824\\
+\verb+ozone+ & \textbf{1.000} & 0.966 & 0.778 & 0.723 & \textbf{1.000} & 0.667 & \textbf{1.000} & 0.723\\
+\verb+rail_lines+ & \textbf{0.966} & \textbf{0.966} & 0.889 & 0.846 & \textbf{0.966} & 0.800 & 0.846 & 0.537\\
+\verb+ratner_stock+ & 0.832 & \textbf{0.929} & 0.559 & 0.350 & 0.776 & 0.754 & 0.824 & 0.571\\
+\verb+robocalls+ & \textbf{0.966} & \textbf{0.966} & 0.750 & \textbf{0.966} & \textbf{0.966} & \textbf{0.966} & \textbf{0.966} & 0.636\\
+\verb+scanline_126007+ & 0.920 & \textbf{0.964} & 0.837 & 0.796 & 0.870 & 0.838 & 0.889 & 0.644\\
+\verb+scanline_42049+ & 0.931 & \textbf{0.962} & 0.921 & 0.471 & 0.910 & 0.908 & 0.910 & 0.276\\
+\verb+seatbelts+ & \textbf{0.838} & 0.683 & 0.583 & 0.824 & 0.683 & 0.683 & 0.683 & 0.621\\
+\verb+shanghai_license+ & \textbf{0.966} & 0.868 & 0.651 & 0.727 & 0.868 & 0.465 & \textbf{0.966} & 0.636\\
+\verb+uk_coal_employ+ & M & M & 0.617 & \textbf{0.818} & 0.513 & 0.513 & M & 0.513\\
+\verb+unemployment_nl+ & \textbf{0.889} & 0.876 & 0.797 & 0.705 & 0.790 & 0.744 & 0.816 & 0.566\\
+\verb+us_population+ & \textbf{1.000} & \textbf{1.000} & 0.615 & 0.061 & 0.471 & 0.276 & \textbf{1.000} & 0.889\\
+\verb+usd_isk+ & 0.785 & \textbf{0.876} & 0.678 & 0.553 & 0.785 & 0.601 & 0.785 & 0.489\\
+\verb+well_log+ & 0.944 & 0.908 & 0.796 & \textbf{0.963} & 0.928 & 0.950 & 0.912 & 0.237\\
 \midrule
-\verb+quality_control_1+ & \textbf{1.000} & \textbf{1.000} & 0.667 & \textbf{1.000} & \textbf{1.000} & 0.667 & \textbf{1.000} & 0.500 & 0.667\\
-\verb+quality_control_2+ & \textbf{1.000} & \textbf{1.000} & 0.800 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.261 & 0.750\\
-\verb+quality_control_3+ & \textbf{1.000} & \textbf{1.000} & 0.766 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & F/T & 0.667\\
-\verb+quality_control_4+ & \textbf{0.873} & 0.810 & 0.561 & 0.810 & 0.787 & 0.658 & 0.810 & F/T & 0.780\\
-\verb+quality_control_5+ & \textbf{1.000} & \textbf{1.000} & 0.500 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & F/T & \textbf{1.000}\\
+\verb+quality_control_1+ & \textbf{1.000} & \textbf{1.000} & 0.667 & \textbf{1.000} & \textbf{1.000} & 0.667 & \textbf{1.000} & 0.667\\
+\verb+quality_control_2+ & \textbf{1.000} & \textbf{1.000} & 0.800 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.750\\
+\verb+quality_control_3+ & \textbf{1.000} & \textbf{1.000} & 0.766 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & 0.667\\
+\verb+quality_control_4+ & \textbf{0.873} & 0.810 & 0.561 & 0.810 & 0.787 & 0.658 & 0.810 & 0.780\\
+\verb+quality_control_5+ & \textbf{1.000} & \textbf{1.000} & 0.500 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000}\\
 \midrule
-\verb+apple+ &  & \textbf{0.916} & 0.552 & 0.454 & 0.745 & 0.634 &  & F/T & 0.594\\
-\verb+bee_waggle_6+ &  & \textbf{0.929} & 0.651 & 0.100 & 0.233 & 0.651 &  & F/T & \textbf{0.929}\\
-\verb+occupancy+ &  & 0.919 & 0.714 & 0.458 & \textbf{0.932} & 0.828 &  & F/T & 0.341\\
-\verb+run_log+ &  & \textbf{1.000} & 0.698 & 0.306 & 0.990 & \textbf{1.000} &  & F/T & 0.446\\
+\verb+apple+ &  & \textbf{0.916} & 0.552 & 0.454 & 0.745 & 0.634 &  & 0.594\\
+\verb+bee_waggle_6+ &  & \textbf{0.929} & 0.651 & 0.100 & 0.233 & 0.651 &  & \textbf{0.929}\\
+\verb+glass+ &  & 0.435 & \textbf{0.571} & 0.522 & 0.333 & 0.333 &  & 0.286\\
+\verb+occupancy+ &  & 0.919 & 0.714 & 0.458 & \textbf{0.932} & 0.828 &  & 0.341\\
+\verb+run_log+ &  & \textbf{1.000} & 0.698 & 0.306 & 0.990 & \textbf{1.000} &  & 0.446\\
 \bottomrule
 \end{tabular}

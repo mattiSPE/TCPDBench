@@ -1,0 +1,48 @@
+{
+	"command": "/var/local/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py -i /var/local/home/markus/workspace/TCPDBench/datasets/glass.json --method random_forest --segmentation-type sbs --n-estimators 100 --max-depth 2 --feature_split 1",
+	"dataset": "glass",
+	"dataset_md5": "bb237bcbfe2685e384fc8d2ea4d787cf",
+	"error": null,
+	"hostname": "abed3",
+	"parameters": {
+		"feature_split": "1",
+		"max_depth": 2,
+		"method": "random_forest",
+		"n_estimators": 100,
+		"segmentation_type": "sbs",
+		"use_timeout": false
+	},
+	"result": {
+		"cplocations": [
+			9,
+			18,
+			24,
+			36,
+			45,
+			54,
+			61,
+			70,
+			85,
+			95,
+			103,
+			113,
+			117,
+			127,
+			132,
+			137,
+			141,
+			151,
+			157,
+			163,
+			167,
+			170,
+			176,
+			185,
+			190
+		],
+		"runtime": 6.759846210479736
+	},
+	"script": "/var/local/home/markus/workspace/TCPDBench/execs/python/cpdbench_changeforest.py",
+	"script_md5": "400044b252a84523b9313cc78234eeb5",
+	"status": "SUCCESS"
+}

@@ -86,7 +86,9 @@ def write_latex(results: List[Result]):
 
         for method in methods:
             m = Method(method)
-            r = next((r for r in results if r.method == m and r.dataset == d))
+#            r = next((r for r in results if r.method == m and r.dataset == d))
+#            row.append(r.placeholder if r.score is None else r.score)
+            r = next((r for r in results if r.method == m and r.dataset == d), None)
             row.append(r.placeholder if r.score is None else r.score)
 
         table.append(row)

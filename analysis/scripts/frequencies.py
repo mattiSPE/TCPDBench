@@ -28,6 +28,7 @@ FREQUENCIES = {
     Dataset.gdp_iran: "Yearly",
     Dataset.gdp_japan: "Yearly",
     Dataset.global_co2: "Quadrennial",
+    Dataset.glass: "Unit",
     Dataset.homeruns: "Yearly",
     Dataset.iceland_tourism: "Monthly",
     Dataset.jfk_passengers: "Monthly",
